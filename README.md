@@ -38,6 +38,7 @@ Open `notebooks/f1_final_project.ipynb` to read the executed analysis with all o
 python -m pip install -r requirements.txt
 streamlit run app/streamlit_app.py      # run from this folder
 ```
+Deployed Streamlit link: https://mlccp1.streamlit.app/
 Seven pages: Overview · Data & EDA · Pipeline & Features · Model Lab · Test Evaluation · Race Predictor · Surprise Analysis.
 The app only *reads* the saved artefacts (`models/`, `reports/results/`, `data/`) and the `f1ml` package; it never retrains.
 The saved pipeline was built with scikit-learn 1.7.2 — keep that version pinned or loading will fail.
