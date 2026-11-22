@@ -1,0 +1,21 @@
+{
+  "Logistic Regression": {
+    "clf__C": 0.01,
+    "clf__class_weight": "balanced"
+  },
+  "KNN": {
+    "clf__n_neighbors": 31,
+    "clf__weights": "distance"
+  },
+  "SVM (RBF)": {
+    "clf__C": 1.0,
+    "clf__class_weight": null,
+    "clf__gamma": 0.01
+  },
+  "Random Forest": {
+    "clf__class_weight": null,
+    "clf__max_depth": 8,
+    "clf__max_features": 0.5,
+    "clf__min_samples_leaf": 40
+  }
+}

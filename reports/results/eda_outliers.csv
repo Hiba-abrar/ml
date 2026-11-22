@@ -1,0 +1,7 @@
+feature,n,iqr_outliers,pct_outliers,min,max
+quali_gap_to_pole_pct,5000,254,5.08,0.0,37.7965359844932
+driver_age,5073,38,0.75,17.453798767967147,43.893223819301845
+grid_penalty_places,5049,1561,30.92,-7.0,23.0
+driver_avg_finish_last5,5001,0,0.0,1.0,24.0
+constructor_points_last5,5047,92,1.82,0.0,222.0
+driver_points_before,4821,456,9.46,0.0,387.0

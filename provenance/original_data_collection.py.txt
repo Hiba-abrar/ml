@@ -1,0 +1,498 @@
+"""Stage 1 - Data collection.
+
+Two interchangeable sources for the Formula 1 data, plus one source for weather:
+
+1. Jolpica F1 API (the maintained successor of the Ergast API)  [default]
+   https://api.jolpi.ca/ergast/f1/
+2. Kaggle "Formula 1 World Championship (1950 - 2024/2025)" CSV files
+   (Ergast export by Rohan Rao). Download the ZIP manually, extract the CSVs
+   into data/raw/kaggle/ and run with --source kaggle.
+3. Open-Meteo Historical Weather API (ERA5 reanalysis)
+   https://archive-api.open-meteo.com/v1/archive
+
+Every HTTP response is cached as JSON under data/raw/ so the collection can be
+re-run (or resumed after a failure) without downloading everything again.
+
+Both F1 sources are converted to the same *canonical* tables in data/interim/:
+    races.csv, results.csv, qualifying.csv, sprint_results.csv,
+    drivers.csv, constructors.csv  (+ weather.csv)
+
+Nothing in this module invents data: if a download fails, a clear error is
+raised (F1 data) or the value is left missing and reported (weather).
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import logging
+import time
+from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import requests
+
+from src import config
+
+logger = logging.getLogger(__name__)
+
+
+class DataCollectionError(RuntimeError):
+    """Raised when required data could not be downloaded or found."""
+
+
+# ==========================================================================
+# Generic HTTP helper with caching and retries
+# ==========================================================================
+def _get_json(url: str, params: dict | None, cache_file: Path, refresh: bool = False,
+              sleep_seconds: float = 0.0) -> dict:
+    """Return JSON for *url*, reading/writing a cache file.
+
+    Retries on network errors and HTTP 429/5xx with exponential back-off.
+    """
+    if cache_file.exists() and not refresh:
+        with open(cache_file, "r", encoding="utf-8") as fh:
+            return json.load(fh)
+
+    headers = {"User-Agent": config.USER_AGENT, "Accept": "application/json"}
+    last_error: Exception | None = None
+    for attempt in range(1, config.MAX_RETRIES + 1):
+        try:
+            response = requests.get(url, params=params, headers=headers,
+                                    timeout=config.HTTP_TIMEOUT)
+            if response.status_code == 429 or response.status_code >= 500:
+                wait = float(response.headers.get("Retry-After", 2 ** attempt))
+                logger.warning("HTTP %s from %s - retrying in %.0fs",
+                               response.status_code, url, wait)
+                time.sleep(wait)
+                last_error = requests.HTTPError(f"HTTP {response.status_code}")
+                continue
+            response.raise_for_status()
+            payload = response.json()
+            cache_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(cache_file, "w", encoding="utf-8") as fh:
+                json.dump(payload, fh)
+            if sleep_seconds:
+                time.sleep(sleep_seconds)
+            return payload
+        except (requests.ConnectionError, requests.Timeout, requests.HTTPError,
+                ValueError) as exc:
+            last_error = exc
+            wait = 2 ** attempt
+            logger.warning("Request failed (%s) attempt %d/%d - retrying in %ds",
+                           exc, attempt, config.MAX_RETRIES, wait)
+            time.sleep(wait)
+    raise DataCollectionError(f"Could not download {url} params={params}: {last_error}")
+
+
+# ==========================================================================
+# Jolpica (Ergast-compatible) API
+# ==========================================================================
+def fetch_jolpica_races(endpoint: str, season: int, refresh: bool = False) -> list[dict]:
+    """Download every page of a season endpoint and return the merged race list.
+
+    endpoint: "" (schedule), "results", "qualifying" or "sprint".
+    Jolpica paginates over *result rows*, so a single race can be split across
+    two pages - races with the same round are merged here.
+    """
+    path = f"{season}/{endpoint}.json" if endpoint else f"{season}.json"
+    url = f"{config.JOLPICA_BASE_URL}/{path}"
+    name = endpoint or "schedule"
+    races_by_round: dict[int, dict] = {}
+    offset, total = 0, None
+    while total is None or offset < total:
+        cache_file = config.JOLPICA_CACHE_DIR / name / f"{season}_offset{offset:04d}.json"
+        payload = _get_json(url, {"limit": config.JOLPICA_PAGE_LIMIT, "offset": offset},
+                            cache_file, refresh, config.JOLPICA_SLEEP_SECONDS)
+        mr = payload["MRData"]
+        total = int(mr["total"])
+        for race in mr["RaceTable"]["Races"]:
+            rnd = int(race["round"])
+            if rnd not in races_by_round:
+                races_by_round[rnd] = race
+            else:  # race continued from previous page -> append its rows
+                for key in ("Results", "QualifyingResults", "SprintResults"):
+                    if key in race:
+                        races_by_round[rnd].setdefault(key, []).extend(race[key])
+        offset += config.JOLPICA_PAGE_LIMIT
+        if total == 0:
+            break
+    return [races_by_round[k] for k in sorted(races_by_round)]
+
+
+def fetch_jolpica_final_standings(season: int, kind: str, refresh: bool = False) -> list[dict]:
+    """Official end-of-season standings (used only to validate derived standings)."""
+    endpoint = "driverStandings" if kind == "driver" else "constructorStandings"
+    url = f"{config.JOLPICA_BASE_URL}/{season}/{endpoint}.json"
+    cache_file = config.JOLPICA_CACHE_DIR / endpoint / f"{season}_final.json"
+    payload = _get_json(url, {"limit": 100}, cache_file, refresh, config.JOLPICA_SLEEP_SECONDS)
+    lists = payload["MRData"]["StandingsTable"]["StandingsLists"]
+    if not lists:
+        return []
+    key = "DriverStandings" if kind == "driver" else "ConstructorStandings"
+    return lists[0][key]
+
+
+def _race_id(season, rnd) -> str:
+    return f"{int(season)}_{int(rnd):02d}"
+
+
+def parse_schedule(races: list[dict]) -> pd.DataFrame:
+    rows = []
+    for race in races:
+        circuit = race["Circuit"]
+        rows.append({
+            "race_id": _race_id(race["season"], race["round"]),
+            "season": int(race["season"]),
+            "round": int(race["round"]),
+            "race_name": race["raceName"],
+            "date": race["date"],
+            "time_utc": race.get("time", ""),
+            "circuit_id": circuit["circuitId"],
+            "circuit_name": circuit["circuitName"],
+            "locality": circuit["Location"].get("locality"),
+            "country": circuit["Location"].get("country"),
+            "lat": float(circuit["Location"]["lat"]),
+            "lon": float(circuit["Location"]["long"]),
+        })
+    return pd.DataFrame(rows)
+
+
+def parse_results(races: list[dict]) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Return (results, drivers, constructors) from the results endpoint."""
+    result_rows, driver_rows, constructor_rows = [], {}, {}
+    for race in races:
+        for res in race.get("Results", []):
+            drv, con = res["Driver"], res["Constructor"]
+            result_rows.append({
+                "race_id": _race_id(race["season"], race["round"]),
+                "season": int(race["season"]),
+                "round": int(race["round"]),
+                "driver_id": drv["driverId"],
+                "constructor_id": con["constructorId"],
+                "car_number": res.get("number"),
+                "grid": res.get("grid"),
+                "position": res.get("position"),
+                "position_text": res.get("positionText"),
+                "points": res.get("points"),
+                "laps": res.get("laps"),
+                "status": res.get("status"),
+            })
+            driver_rows[drv["driverId"]] = {
+                "driver_id": drv["driverId"], "driver_code": drv.get("code"),
+                "given_name": drv.get("givenName"), "family_name": drv.get("familyName"),
+                "date_of_birth": drv.get("dateOfBirth"), "nationality": drv.get("nationality"),
+            }
+            constructor_rows[con["constructorId"]] = {
+                "constructor_id": con["constructorId"], "constructor_name": con.get("name"),
+                "constructor_nationality": con.get("nationality"),
+            }
+    return (pd.DataFrame(result_rows), pd.DataFrame(list(driver_rows.values())),
+            pd.DataFrame(list(constructor_rows.values())))
+
+
+def parse_qualifying(races: list[dict]) -> pd.DataFrame:
+    rows = []
+    for race in races:
+        for q in race.get("QualifyingResults", []):
+            rows.append({
+                "race_id": _race_id(race["season"], race["round"]),
+                "season": int(race["season"]), "round": int(race["round"]),
+                "driver_id": q["Driver"]["driverId"],
+                "constructor_id": q["Constructor"]["constructorId"],
+                "quali_position": q.get("position"),
+                "q1": q.get("Q1"), "q2": q.get("Q2"), "q3": q.get("Q3"),
+            })
+    return pd.DataFrame(rows, columns=["race_id", "season", "round", "driver_id",
+                                       "constructor_id", "quali_position", "q1", "q2", "q3"])
+
+
+def parse_sprints(races: list[dict]) -> pd.DataFrame:
+    rows = []
+    for race in races:
+        for s in race.get("SprintResults", []):
+            rows.append({
+                "race_id": _race_id(race["season"], race["round"]),
+                "season": int(race["season"]), "round": int(race["round"]),
+                "driver_id": s["Driver"]["driverId"],
+                "constructor_id": s["Constructor"]["constructorId"],
+                "sprint_points": s.get("points"),
+            })
+    return pd.DataFrame(rows, columns=["race_id", "season", "round", "driver_id",
+                                       "constructor_id", "sprint_points"])
+
+
+def collect_jolpica(seasons: list[int], refresh: bool = False) -> dict[str, pd.DataFrame]:
+    """Download all F1 tables for *seasons* from Jolpica and return canonical frames."""
+    schedules, results, drivers, constructors, qualis, sprints = [], [], [], [], [], []
+    official = []
+    for season in seasons:
+        logger.info("Jolpica: season %d", season)
+        schedules.append(parse_schedule(fetch_jolpica_races("", season, refresh)))
+        res, drv, con = parse_results(fetch_jolpica_races("results", season, refresh))
+        if res.empty:
+            raise DataCollectionError(f"Jolpica returned no race results for {season}.")
+        results.append(res); drivers.append(drv); constructors.append(con)
+        qualis.append(parse_qualifying(fetch_jolpica_races("qualifying", season, refresh)))
+        if season >= 2021:  # sprint format introduced in 2021
+            sprints.append(parse_sprints(fetch_jolpica_races("sprint", season, refresh)))
+        # Final official standings - used ONLY to validate our derived standings.
+        for kind in ("driver", "constructor"):
+            for row in fetch_jolpica_final_standings(season, kind, refresh):
+                ident = row["Driver"]["driverId"] if kind == "driver" else row["Constructor"]["constructorId"]
+                official.append({"season": season, "kind": kind, "entity_id": ident,
+                                 "official_position": row.get("position"),
+                                 "official_points": row.get("points")})
+
+    schedule = pd.concat(schedules, ignore_index=True)
+    # Keep only races that actually have results (the schedule can include
+    # cancelled or future events).
+    results_df = pd.concat(results, ignore_index=True)
+    schedule = schedule[schedule["race_id"].isin(results_df["race_id"])]
+    return {
+        "races": schedule,
+        "results": results_df,
+        "qualifying": pd.concat(qualis, ignore_index=True),
+        "sprint_results": (pd.concat(sprints, ignore_index=True) if sprints
+                           else parse_sprints([])),
+        "drivers": pd.concat(drivers).drop_duplicates("driver_id", keep="last"),
+        "constructors": pd.concat(constructors).drop_duplicates("constructor_id", keep="last"),
+        "official_final_standings": pd.DataFrame(official),
+    }
+
+
+# ==========================================================================
+# Kaggle CSV alternative (no API needed once the files are downloaded)
+# ==========================================================================
+KAGGLE_REQUIRED_FILES = ["races.csv", "results.csv", "qualifying.csv", "drivers.csv",
+                         "constructors.csv", "circuits.csv", "status.csv"]
+
+
+def load_kaggle(kaggle_dir: Path, seasons: list[int]) -> dict[str, pd.DataFrame]:
+    """Convert the Kaggle (Ergast export) CSVs into the canonical tables."""
+    missing = [f for f in KAGGLE_REQUIRED_FILES if not (kaggle_dir / f).exists()]
+    if missing:
+        raise DataCollectionError(
+            f"Kaggle files missing in {kaggle_dir}: {missing}. Download the dataset "
+            "'Formula 1 World Championship (1950 - 2024)' from Kaggle and extract it there.")
+
+    def read(name):
+        return pd.read_csv(kaggle_dir / name, na_values=["\\N"], keep_default_na=True)
+
+    races = read("races.csv")
+    races = races[races["year"].isin(seasons)]
+    circuits = read("circuits.csv")
+    drivers = read("drivers.csv")
+    constructors = read("constructors.csv")
+    status = read("status.csv")
+
+    races = races.merge(circuits[["circuitId", "circuitRef", "name", "location", "country",
+                                  "lat", "lng"]].rename(columns={"name": "circuit_name"}),
+                        on="circuitId", how="left")
+    races["race_id"] = [_race_id(y, r) for y, r in zip(races["year"], races["round"])]
+    races_out = pd.DataFrame({
+        "race_id": races["race_id"], "season": races["year"], "round": races["round"],
+        "race_name": races["name"], "date": races["date"],
+        "time_utc": races["time"].fillna("").map(lambda t: f"{t}Z" if t else ""),
+        "circuit_id": races["circuitRef"], "circuit_name": races["circuit_name"],
+        "locality": races["location"], "country": races["country"],
+        "lat": races["lat"], "lon": races["lng"],
+    })
+    key = races[["raceId", "race_id", "year", "round"]]
+    drv_ref = drivers.set_index("driverId")["driverRef"]
+    con_ref = constructors.set_index("constructorId")["constructorRef"]
+
+    res = read("results.csv").merge(key, on="raceId").merge(status, on="statusId", how="left")
+    results_out = pd.DataFrame({
+        "race_id": res["race_id"], "season": res["year"], "round": res["round"],
+        "driver_id": res["driverId"].map(drv_ref),
+        "constructor_id": res["constructorId"].map(con_ref),
+        "car_number": res["number"], "grid": res["grid"],
+        # Kaggle 'position' is NaN for non-classified drivers; Ergast/Jolpica
+        # 'position' equals the classification order -> use positionOrder.
+        "position": res["positionOrder"], "position_text": res["positionText"],
+        "points": res["points"], "laps": res["laps"], "status": res["status"],
+    })
+    q = read("qualifying.csv").merge(key, on="raceId")
+    quali_out = pd.DataFrame({
+        "race_id": q["race_id"], "season": q["year"], "round": q["round"],
+        "driver_id": q["driverId"].map(drv_ref), "constructor_id": q["constructorId"].map(con_ref),
+        "quali_position": q["position"], "q1": q["q1"], "q2": q["q2"], "q3": q["q3"],
+    })
+    if (kaggle_dir / "sprint_results.csv").exists():
+        s = read("sprint_results.csv").merge(key, on="raceId")
+        sprint_out = pd.DataFrame({
+            "race_id": s["race_id"], "season": s["year"], "round": s["round"],
+            "driver_id": s["driverId"].map(drv_ref),
+            "constructor_id": s["constructorId"].map(con_ref), "sprint_points": s["points"],
+        })
+    else:
+        sprint_out = parse_sprints([])
+    drivers_out = pd.DataFrame({
+        "driver_id": drivers["driverRef"], "driver_code": drivers["code"],
+        "given_name": drivers["forename"], "family_name": drivers["surname"],
+        "date_of_birth": drivers["dob"], "nationality": drivers["nationality"],
+    })
+    constructors_out = pd.DataFrame({
+        "constructor_id": constructors["constructorRef"], "constructor_name": constructors["name"],
+        "constructor_nationality": constructors["nationality"],
+    })
+    found = sorted(races_out["season"].unique())
+    absent = sorted(set(seasons) - set(found))
+    if absent:
+        logger.warning("Kaggle files do not contain seasons %s - they will be missing.", absent)
+    return {"races": races_out, "results": results_out, "qualifying": quali_out,
+            "sprint_results": sprint_out, "drivers": drivers_out,
+            "constructors": constructors_out}
+
+
+# ==========================================================================
+# Open-Meteo historical weather
+# ==========================================================================
+def race_start_utc(race_date: str, time_utc: str, lon: float) -> datetime:
+    """Best estimate of the race start as a UTC datetime.
+
+    Ergast/Jolpica give the race *local* date and the start time in UTC. For
+    night races in the Americas (e.g. Las Vegas, 22:00 local = 06:00 UTC next
+    day) simply joining date + time would be one day too early, so we check the
+    implied local date using a longitude-based offset (15 degrees = 1 hour) and
+    shift by a day when needed. If no time is published we assume 14:00 local.
+    """
+    local_day = date.fromisoformat(str(race_date)[:10])
+    approx_offset = timedelta(hours=lon / 15.0)
+    if time_utc and isinstance(time_utc, str) and time_utc.strip():
+        hh, mm, *_ = time_utc.strip().rstrip("Z").split(":")
+        candidate = datetime(local_day.year, local_day.month, local_day.day,
+                             int(hh), int(mm), tzinfo=timezone.utc)
+        implied_local_day = (candidate + approx_offset).date()
+        if implied_local_day < local_day:
+            candidate += timedelta(days=1)
+        elif implied_local_day > local_day:
+            candidate -= timedelta(days=1)
+        return candidate
+    local_two_pm = datetime(local_day.year, local_day.month, local_day.day, 14, tzinfo=timezone.utc)
+    return local_two_pm - approx_offset
+
+
+def fetch_race_weather(race: pd.Series, refresh: bool = False) -> dict:
+    """Hourly ERA5 weather around the race start, summarised into features.
+
+    Features for the MODEL (known before lights out):
+      temp_at_start_c        temperature at the start hour
+      precip_3h_before_mm    precipitation in the 3 hours before the start
+      rain_before_start      1 if precip_3h_before_mm >= 0.1 mm
+    Columns for EDA ONLY (observed during the race -> NOT model features):
+      precip_race_window_mm, rain_during_race
+    """
+    start = race_start_utc(race["date"], race.get("time_utc", ""), float(race["lon"]))
+    params = {
+        "latitude": round(float(race["lat"]), 4), "longitude": round(float(race["lon"]), 4),
+        "start_date": (start - timedelta(days=1)).date().isoformat(),
+        "end_date": (start + timedelta(days=1)).date().isoformat(),
+        "hourly": "temperature_2m,precipitation,rain", "timezone": "GMT",
+    }
+    cache_file = config.WEATHER_CACHE_DIR / f"{race['race_id']}.json"
+    payload = _get_json(config.OPEN_METEO_ARCHIVE_URL, params, cache_file, refresh, 0.2)
+    hourly = pd.DataFrame(payload["hourly"])
+    hourly["time"] = pd.to_datetime(hourly["time"], utc=True)
+    start_hour = pd.Timestamp(start).floor("h")
+    at_start = hourly.loc[hourly["time"] == start_hour, "temperature_2m"]
+    before = hourly[(hourly["time"] >= start_hour - pd.Timedelta(hours=3)) & (hourly["time"] < start_hour)]
+    during = hourly[(hourly["time"] >= start_hour) & (hourly["time"] < start_hour + pd.Timedelta(hours=2))]
+    precip_before = before["precipitation"].sum(min_count=1)
+    precip_during = during["precipitation"].sum(min_count=1)
+    return {
+        "race_id": race["race_id"],
+        "race_start_utc": start.isoformat(),
+        "temp_at_start_c": float(at_start.iloc[0]) if len(at_start) else np.nan,
+        "precip_3h_before_mm": precip_before,
+        "rain_before_start": float(precip_before >= 0.1) if pd.notna(precip_before) else np.nan,
+        "precip_race_window_mm": precip_during,
+        "rain_during_race": float(precip_during >= 0.1) if pd.notna(precip_during) else np.nan,
+    }
+
+
+def collect_weather(races: pd.DataFrame, refresh: bool = False) -> pd.DataFrame:
+    rows, failures = [], []
+    for _, race in races.iterrows():
+        try:
+            rows.append(fetch_race_weather(race, refresh))
+        except (DataCollectionError, KeyError, ValueError) as exc:
+            failures.append(race["race_id"])
+            logger.warning("Weather unavailable for %s: %s", race["race_id"], exc)
+            rows.append({"race_id": race["race_id"]})
+    if failures:
+        logger.warning("Weather missing for %d/%d races (left as NaN, imputed later): %s",
+                       len(failures), len(races), failures)
+    return pd.DataFrame(rows)
+
+
+# ==========================================================================
+# Orchestration
+# ==========================================================================
+def write_sources_metadata(source: str, tables: dict[str, pd.DataFrame], weather_ok: bool) -> None:
+    retrieved = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    meta = {
+        "f1_data": {
+            "source": ("Jolpica F1 API (Ergast-compatible)" if source == "jolpica"
+                       else "Kaggle: Formula 1 World Championship (1950-2024) by Rohan Rao"),
+            "url": (config.JOLPICA_BASE_URL if source == "jolpica" else
+                    "https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020"),
+            "collection_method": ("HTTP GET of season endpoints (schedule, results, qualifying, "
+                                  "sprint, final standings), paginated, cached as JSON"
+                                  if source == "jolpica" else "Manually downloaded CSV files"),
+            "licence": ("Jolpica/Ergast data - free for non-commercial use; see "
+                        "https://github.com/jolpica/jolpica-f1 for current terms"
+                        if source == "jolpica" else "CC0: Public Domain (as listed on Kaggle)"),
+            "retrieval_date_utc": retrieved,
+            "rows": {name: int(len(df)) for name, df in tables.items()},
+        },
+        "weather": {
+            "source": "Open-Meteo Historical Weather API (ERA5 / ERA5-Land reanalysis)",
+            "url": config.OPEN_METEO_ARCHIVE_URL,
+            "collection_method": "One request per race using circuit lat/lon, hourly "
+                                 "temperature_2m/precipitation/rain around the race start (UTC)",
+            "licence": "CC BY 4.0 (Open-Meteo); ERA5 data from Copernicus Climate Change Service",
+            "retrieval_date_utc": retrieved,
+            "collected": weather_ok,
+        },
+    }
+    with open(config.SOURCES_METADATA_FILE, "w", encoding="utf-8") as fh:
+        json.dump(meta, fh, indent=2)
+
+
+def run_collection(source: str = "jolpica", refresh: bool = False, skip_weather: bool = False,
+                   seasons: list[int] | None = None) -> dict[str, pd.DataFrame]:
+    config.ensure_directories()
+    seasons = seasons or list(range(config.FIRST_SEASON, config.LAST_SEASON + 1))
+    if source == "jolpica":
+        tables = collect_jolpica(seasons, refresh)
+    elif source == "kaggle":
+        tables = load_kaggle(config.KAGGLE_DIR, seasons)
+    else:
+        raise ValueError("source must be 'jolpica' or 'kaggle'")
+
+    weather_ok = False
+    if not skip_weather:
+        tables["weather"] = collect_weather(tables["races"], refresh)
+        weather_ok = bool(tables["weather"].drop(columns="race_id").notna().to_numpy().any())
+    for name, df in tables.items():
+        df.to_csv(config.INTERIM_DIR / f"{name}.csv", index=False)
+        logger.info("Saved %-25s %6d rows", f"{name}.csv", len(df))
+    write_sources_metadata(source, tables, bool(weather_ok))
+    return tables
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Collect F1 + weather data")
+    parser.add_argument("--source", choices=["jolpica", "kaggle"], default="jolpica")
+    parser.add_argument("--refresh", action="store_true", help="ignore the cache and re-download")
+    parser.add_argument("--skip-weather", action="store_true")
+    args = parser.parse_args()
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    run_collection(args.source, args.refresh, args.skip_weather)
+
+
+if __name__ == "__main__":
+    main()

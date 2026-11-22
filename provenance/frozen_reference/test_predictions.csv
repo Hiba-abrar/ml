@@ -1,0 +1,959 @@
+race_id,season,round,race_name,race_date,circuit_id,driver_id,driver_name,constructor_id,grid,actual_class,finish_status,predicted_class,probability_Top 3,probability_Points,probability_Outside Points
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,albon,Alexander Albon,williams,13,Outside Points,Classified,Outside Points,0.011314387829312534,0.35995933609962927,0.62872627607105769
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,alonso,Fernando Alonso,aston_martin,6,Points,Classified,Points,0.12146871368203031,0.59297306579795395,0.28555822052001611
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.0057156859974057317,0.23351817753275322,0.76076613646984115
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,gasly,Pierre Gasly,alpine,20,Outside Points,Classified,Outside Points,0.012552507912159052,0.30906547856376193,0.6783820135240789
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,hamilton,Lewis Hamilton,mercedes,9,Points,Classified,Points,0.14980278927086418,0.57626102674243096,0.27393618398670533
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,hulkenberg,Nico Hülkenberg,haas,10,Outside Points,Classified,Outside Points,0.028647323107905791,0.4656073309017934,0.50574534599030085
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,kevin_magnussen,Kevin Magnussen,haas,15,Outside Points,Classified,Outside Points,0.0069322306889009998,0.25986742222453446,0.73320034708656434
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,leclerc,Charles Leclerc,ferrari,2,Points,Classified,Top 3,0.67448822358387328,0.21031536107662765,0.1151964153394985
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.74181216204481193,0.15638152385014675,0.10180631410504136
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,norris,Lando Norris,mclaren,7,Points,Classified,Points,0.15858585432110739,0.57898088774660184,0.26243325793229039
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,ocon,Esteban Ocon,alpine,19,Outside Points,Classified,Outside Points,0.011204992537212077,0.31711524679122577,0.67167976067156199
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,perez,Sergio Pérez,red_bull,5,Top 3,Classified,Points,0.22543012202491927,0.54443869646132581,0.23013118151375514
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,piastri,Oscar Piastri,mclaren,8,Points,Classified,Points,0.13092365028534456,0.57968658562448905,0.28938976409016592
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,ricciardo,Daniel Ricciardo,rb,14,Outside Points,Classified,Outside Points,0.011885943120948173,0.36033470812065721,0.6277793487583937
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,russell,George Russell,mercedes,3,Points,Classified,Top 3,0.51424599422743911,0.33785852621893786,0.14789547955362281
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,sainz,Carlos Sainz,ferrari,4,Top 3,Classified,Points,0.34306591717751289,0.48269489396426246,0.17423918885822506
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,sargeant,Logan Sargeant,williams,18,Outside Points,Classified,Outside Points,0.0056061236085295889,0.23016133323041729,0.76423254316105316
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,stroll,Lance Stroll,aston_martin,12,Points,Classified,Outside Points,0.029988201622460048,0.47588206097558533,0.49412973740195476
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,tsunoda,Yuki Tsunoda,rb,11,Outside Points,Classified,Points,0.035539003217915734,0.5028898927747264,0.46157110400735801
+2024_01,2024,1,Bahrain Grand Prix,2024-03-02,bahrain,zhou,Guanyu Zhou,sauber,17,Outside Points,Classified,Outside Points,0.0046422108704709739,0.18181575253953941,0.81354203658999025
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,albon,Alexander Albon,williams,12,Outside Points,Classified,Outside Points,0.012039764860294042,0.33792044305614327,0.65003979208356266
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,alonso,Fernando Alonso,aston_martin,4,Points,Classified,Points,0.26497852950857453,0.54382448276776219,0.19119698772366381
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,bearman,Oliver Bearman,ferrari,11,Points,Classified,Points,0.061603820546591859,0.56368364018550787,0.37471253926789994
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.0045697576262994522,0.20392974294700575,0.79150049942669465
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,gasly,Pierre Gasly,alpine,18,Outside Points,DNF,Outside Points,0.0028070287641092,0.20423675494540927,0.79295621629048096
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,hamilton,Lewis Hamilton,mercedes,8,Points,Classified,Points,0.097720649043823118,0.63367322085284516,0.26860613010333151
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,hulkenberg,Nico Hülkenberg,haas,15,Points,Classified,Outside Points,0.005717486151320986,0.23868959139167434,0.75559292245700471
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,kevin_magnussen,Kevin Magnussen,haas,13,Outside Points,Classified,Outside Points,0.0064299902425360078,0.2617119608830743,0.73185804887439077
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,leclerc,Charles Leclerc,ferrari,2,Top 3,Classified,Top 3,0.62699550435934293,0.23898107478996572,0.13402342085069122
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.84021075138330603,0.092352675646479893,0.067436572970214784
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,norris,Lando Norris,mclaren,6,Points,Classified,Points,0.10403403434100657,0.62619193300064924,0.26977403265834488
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,ocon,Esteban Ocon,alpine,17,Outside Points,Classified,Outside Points,0.0023749522388885665,0.17929236063928117,0.81833268712182972
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,perez,Sergio Pérez,red_bull,3,Top 3,Classified,Top 3,0.56742704902757335,0.28118933872786189,0.15138361224456445
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,piastri,Oscar Piastri,mclaren,5,Points,Classified,Points,0.13850120503807634,0.61238434200029823,0.24911445296162563
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,ricciardo,Daniel Ricciardo,rb,14,Outside Points,Classified,Outside Points,0.0096160042529094842,0.31888407980544037,0.67149991594165004
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,russell,George Russell,mercedes,7,Points,Classified,Points,0.15887974386347548,0.60212601638099106,0.23899423975553361
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,sargeant,Logan Sargeant,williams,19,Outside Points,Classified,Outside Points,0.00072693005050807947,0.078605177953960895,0.92066789199553123
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,stroll,Lance Stroll,aston_martin,10,Outside Points,DNF,Points,0.050505377051648079,0.56847963363054355,0.38101498931780847
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,tsunoda,Yuki Tsunoda,rb,9,Outside Points,Classified,Points,0.036807591017772388,0.51748533303294542,0.44570707594928222
+2024_02,2024,2,Saudi Arabian Grand Prix,2024-03-09,jeddah,zhou,Guanyu Zhou,sauber,20,Outside Points,Classified,Outside Points,0.0019599830142222742,0.092836079828926929,0.90520393715685099
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,albon,Alexander Albon,williams,12,Outside Points,Classified,Outside Points,0.0096971593922909344,0.32150964018774403,0.6687932004199646
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,alonso,Fernando Alonso,aston_martin,10,Points,Classified,Points,0.091095632841161206,0.62626188662258975,0.28264248053624991
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,bottas,Valtteri Bottas,sauber,13,Outside Points,Classified,Outside Points,0.0043076824268866165,0.21520281768582245,0.78048949988729144
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,gasly,Pierre Gasly,alpine,17,Outside Points,Classified,Outside Points,0.0011611569770996698,0.15678159068452813,0.8420572523383727
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,hamilton,Lewis Hamilton,mercedes,11,Outside Points,DNF,Points,0.057545567744600838,0.58614807343874131,0.35630635881665773
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,hulkenberg,Nico Hülkenberg,haas,16,Points,Classified,Outside Points,0.00194650685222157,0.20074913693786145,0.79730435620991724
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,kevin_magnussen,Kevin Magnussen,haas,14,Points,Classified,Outside Points,0.0045768967620735705,0.23954547845767316,0.755877624780253
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,leclerc,Charles Leclerc,ferrari,4,Top 3,Classified,Points,0.36894200423619011,0.43471453426846546,0.1963434614953444
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,max_verstappen,Max Verstappen,red_bull,1,Outside Points,DNF,Top 3,0.85824531831218076,0.082974009651617345,0.058780672036202859
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,norris,Lando Norris,mclaren,3,Top 3,Classified,Points,0.38646587536611932,0.45449802807316969,0.15903609656071077
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,ocon,Esteban Ocon,alpine,15,Outside Points,Classified,Outside Points,0.002356581155278481,0.1798906849384011,0.81775273390632042
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,perez,Sergio Pérez,red_bull,6,Points,Classified,Top 3,0.43077993402064663,0.39379302318955028,0.17542704278980278
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,piastri,Oscar Piastri,mclaren,5,Points,Classified,Points,0.14439617479668215,0.6095819018982529,0.24602192330506525
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,ricciardo,Daniel Ricciardo,rb,18,Outside Points,Classified,Outside Points,0.00084328880589027962,0.12894942071445367,0.87020729047965606
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,russell,George Russell,mercedes,7,Outside Points,Classified,Points,0.14933740367879278,0.60258965937030518,0.2480729369509023
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,sainz,Carlos Sainz,ferrari,2,Top 3,Classified,Top 3,0.58746654898515394,0.27291487461949682,0.13961857639534947
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,stroll,Lance Stroll,aston_martin,9,Points,Classified,Points,0.054739325024492302,0.60250000764191336,0.34276066733359473
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,tsunoda,Yuki Tsunoda,rb,8,Points,Classified,Outside Points,0.034579925972690412,0.48268112162578269,0.48273895240152653
+2024_03,2024,3,Australian Grand Prix,2024-03-24,albert_park,zhou,Guanyu Zhou,sauber,19,Outside Points,Classified,Outside Points,0.00032237588838443672,0.035409729455044892,0.96426789465657126
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,albon,Alexander Albon,williams,14,Outside Points,DNF,Outside Points,0.0046508078824546136,0.21535490571489646,0.77999428640264956
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,alonso,Fernando Alonso,aston_martin,5,Points,Classified,Points,0.17140443108883752,0.58798286711957393,0.24061270179158914
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,bottas,Valtteri Bottas,sauber,13,Outside Points,Classified,Outside Points,0.0045116270709323206,0.22396144260322692,0.77152693032584185
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,gasly,Pierre Gasly,alpine,17,Outside Points,Classified,Outside Points,0.0016738422694586466,0.13920292590147249,0.85912323182906936
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,hamilton,Lewis Hamilton,mercedes,7,Points,Classified,Points,0.094866281061488852,0.60946009893621844,0.29567362000229302
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,hulkenberg,Nico Hülkenberg,haas,12,Outside Points,Classified,Outside Points,0.010732438174118408,0.37611381029445107,0.61315375153143059
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,kevin_magnussen,Kevin Magnussen,haas,18,Outside Points,Classified,Outside Points,0.001883589377574108,0.17323150192194178,0.82488490870048348
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,leclerc,Charles Leclerc,ferrari,8,Points,Classified,Points,0.28581503666661884,0.50438306768015417,0.20980189565322754
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.81608096180175016,0.11375126978926887,0.070167768408981479
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,norris,Lando Norris,mclaren,3,Points,Classified,Top 3,0.4818721053762679,0.36473760555350543,0.15339028907022625
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,ocon,Esteban Ocon,alpine,15,Outside Points,Classified,Outside Points,0.0047935275920122974,0.19042587024729651,0.80478060216069036
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,perez,Sergio Pérez,red_bull,2,Top 3,Classified,Top 3,0.69608377764700546,0.18340290698860312,0.12051331536439119
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,piastri,Oscar Piastri,mclaren,6,Points,Classified,Points,0.21619319610245799,0.56273470692544603,0.22107209697209615
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,ricciardo,Daniel Ricciardo,rb,11,Outside Points,DNF,Outside Points,0.016853780072469803,0.37516586863596663,0.60798035129156336
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,russell,George Russell,mercedes,9,Points,Classified,Points,0.093101893714010925,0.62931569914896446,0.27758240713702514
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,sainz,Carlos Sainz,ferrari,4,Top 3,Classified,Points,0.41051124500362457,0.41405069883425122,0.1754380561621241
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,sargeant,Logan Sargeant,williams,19,Outside Points,Classified,Outside Points,0.00013352174946322913,0.067119305802005022,0.93274717244853178
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,stroll,Lance Stroll,aston_martin,16,Outside Points,Classified,Outside Points,0.01547162217373055,0.36828655123329268,0.61624182659297644
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,tsunoda,Yuki Tsunoda,rb,10,Points,Classified,Points,0.032100074317296057,0.51976304148039265,0.44813688420231129
+2024_04,2024,4,Japanese Grand Prix,2024-04-07,suzuka,zhou,Guanyu Zhou,sauber,20,Outside Points,DNF,Outside Points,0.00013352174946322913,0.036779859767018294,0.96308661848351917
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,albon,Alexander Albon,williams,14,Outside Points,Classified,Outside Points,0.0041585431216978911,0.18833862679877986,0.8075028300795225
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,alonso,Fernando Alonso,aston_martin,3,Points,Classified,Top 3,0.46172402175650973,0.38404483813416845,0.1542311401093216
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,bottas,Valtteri Bottas,sauber,10,Outside Points,DNF,Outside Points,0.016059448788440379,0.38101146939753583,0.6029290818140236
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,gasly,Pierre Gasly,alpine,15,Outside Points,Classified,Outside Points,0.0013492034458415791,0.13095507727180211,0.86769571928235645
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,hamilton,Lewis Hamilton,mercedes,18,Points,Classified,Outside Points,0.02619045269907402,0.39528533385045406,0.57852421345047178
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,hulkenberg,Nico Hülkenberg,haas,9,Points,Classified,Points,0.028922524549403014,0.48750880560577686,0.48356866984481989
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,kevin_magnussen,Kevin Magnussen,haas,17,Outside Points,Classified,Outside Points,0.0026758468050576611,0.1745195623041525,0.82280459089078917
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,leclerc,Charles Leclerc,ferrari,6,Points,Classified,Points,0.27818417443805432,0.51391855556575416,0.2078972699961921
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.84614675181212928,0.090954042986139641,0.062899205201731437
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,norris,Lando Norris,mclaren,4,Top 3,Classified,Points,0.36406803165923923,0.46654225308460667,0.16938971525615354
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,ocon,Esteban Ocon,alpine,13,Outside Points,Classified,Outside Points,0.003109840121062738,0.19489684536706078,0.80199331451187716
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,perez,Sergio Pérez,red_bull,2,Top 3,Classified,Top 3,0.68042533489013479,0.1971010345273341,0.12247363058253095
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,piastri,Oscar Piastri,mclaren,5,Points,Classified,Points,0.21531686124768126,0.57892911471158537,0.20575402404073373
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,ricciardo,Daniel Ricciardo,rb,12,Outside Points,DNF,Outside Points,0.014400223935537906,0.36154103729138298,0.62405873877307871
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,russell,George Russell,mercedes,8,Points,Classified,Points,0.087352147883756337,0.62854618747430502,0.28410166464193959
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,sainz,Carlos Sainz,ferrari,7,Points,Classified,Points,0.26234881810536431,0.52402644879842697,0.21362473309620911
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,sargeant,Logan Sargeant,williams,20,Outside Points,Classified,Outside Points,0,0.034182636886521428,0.96581736311347899
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,stroll,Lance Stroll,aston_martin,11,Outside Points,Classified,Points,0.039161723917984698,0.54583029016548223,0.41500798591653371
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,tsunoda,Yuki Tsunoda,rb,19,Outside Points,DNF,Outside Points,0.0055930625529460928,0.23311248542007942,0.76129445202697443
+2024_05,2024,5,Chinese Grand Prix,2024-04-21,shanghai,zhou,Guanyu Zhou,sauber,16,Outside Points,Classified,Outside Points,0.00092305755759410882,0.079920722064044505,0.91915622037836153
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,albon,Alexander Albon,williams,14,Outside Points,Classified,Outside Points,0.004021128327642118,0.19588179359173033,0.80009707808062802
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,alonso,Fernando Alonso,aston_martin,15,Points,Classified,Outside Points,0.045766508049564752,0.44791071327971499,0.50632277867071973
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.0029290418383331042,0.16051889505902525,0.83655206310264218
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,gasly,Pierre Gasly,alpine,12,Outside Points,Classified,Outside Points,0.0067667508901829579,0.22910644838507577,0.76412680072474215
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,hamilton,Lewis Hamilton,mercedes,8,Points,Classified,Points,0.098983637491713794,0.59496572839279449,0.30605063411549233
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,hulkenberg,Nico Hülkenberg,haas,9,Outside Points,Classified,Outside Points,0.029844664534719439,0.47929790084365254,0.49085743462162817
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,kevin_magnussen,Kevin Magnussen,haas,18,Outside Points,Classified,Outside Points,0.0041470058972817364,0.18598329653735279,0.80986969756536442
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,leclerc,Charles Leclerc,ferrari,2,Top 3,Classified,Top 3,0.64060848719822094,0.22150576337761929,0.13788574942415949
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.82823455756114905,0.096171842679505987,0.075593599759345625
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,norris,Lando Norris,mclaren,5,Top 3,Classified,Points,0.3172524881996226,0.48112574713666384,0.20162176466371354
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,ocon,Esteban Ocon,alpine,13,Points,Classified,Outside Points,0.0048113744953520495,0.22010614190089861,0.77508248360375021
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,perez,Sergio Pérez,red_bull,4,Points,Classified,Top 3,0.43367746914354088,0.37774622664203844,0.1885763042144207
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,piastri,Oscar Piastri,mclaren,6,Outside Points,Classified,Points,0.21125628711815814,0.57796979016263694,0.2107739227192055
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,ricciardo,Daniel Ricciardo,rb,20,Outside Points,Classified,Outside Points,0.0053422613423556638,0.20460039066058219,0.79005734799706173
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,russell,George Russell,mercedes,7,Points,Classified,Points,0.080769070480981989,0.65276751557722734,0.26646341394179091
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,sainz,Carlos Sainz,ferrari,3,Points,Classified,Top 3,0.54435729242691444,0.30707237521792768,0.1485703323551576
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,sargeant,Logan Sargeant,williams,17,Outside Points,DNF,Outside Points,0.0014996184095623939,0.087965369478547217,0.91053501211189058
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,stroll,Lance Stroll,aston_martin,11,Outside Points,Classified,Points,0.043092404536328191,0.55107342201991705,0.40583417344375511
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,tsunoda,Yuki Tsunoda,rb,10,Points,Classified,Outside Points,0.028156434681392159,0.48308145084589066,0.48876211447271722
+2024_06,2024,6,Miami Grand Prix,2024-05-05,miami,zhou,Guanyu Zhou,sauber,19,Outside Points,Classified,Outside Points,0.0011812182368142912,0.064171885159371722,0.93464689660381484
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,albon,Alexander Albon,williams,14,Outside Points,DNF,Outside Points,0.0027455087192736348,0.15019143627323542,0.84706305500749157
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,alonso,Fernando Alonso,aston_martin,20,Outside Points,Classified,Outside Points,0.033596193772949673,0.40396869196860619,0.56243511425844428
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.00023380061891261497,0.11439191864652636,0.8853742807345617
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,gasly,Pierre Gasly,alpine,15,Outside Points,Classified,Outside Points,0.0018076496090902094,0.14898530137705016,0.84920704901385946
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,hamilton,Lewis Hamilton,mercedes,8,Points,Classified,Points,0.058085379255009777,0.61892043906142435,0.32299418168356631
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,hulkenberg,Nico Hülkenberg,haas,10,Outside Points,Classified,Points,0.029418355086744123,0.48911191955344002,0.48146972535981641
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,kevin_magnussen,Kevin Magnussen,haas,18,Outside Points,Classified,Outside Points,0.00040089312316954665,0.12232228062275258,0.87727682625407732
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,leclerc,Charles Leclerc,ferrari,3,Top 3,Classified,Top 3,0.51599700204149168,0.32094934946117543,0.16305364849733267
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.83631330338843346,0.09003756772935205,0.07364912888221492
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,norris,Lando Norris,mclaren,2,Top 3,Classified,Top 3,0.63017668106175817,0.23365350657629794,0.13616981236194403
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,ocon,Esteban Ocon,alpine,12,Outside Points,Classified,Outside Points,0.0068401260775177528,0.28539109051403594,0.70776878340844629
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,perez,Sergio Pérez,red_bull,11,Points,Classified,Points,0.2104007216833014,0.55115390411645704,0.23844537420024156
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,piastri,Oscar Piastri,mclaren,5,Points,Classified,Points,0.39597744606649721,0.44364777507334063,0.16037477886016233
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,ricciardo,Daniel Ricciardo,rb,9,Outside Points,Classified,Points,0.030474008202080415,0.49263396621563638,0.47689202558228333
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,russell,George Russell,mercedes,6,Points,Classified,Points,0.10223852988110123,0.64029435297077275,0.25746711714812653
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,sainz,Carlos Sainz,ferrari,4,Points,Classified,Points,0.3504914871213019,0.45461719702253467,0.19489131585616307
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,sargeant,Logan Sargeant,williams,19,Outside Points,Classified,Outside Points,0.00025969118813266786,0.024442247445025652,0.97529806136684272
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,stroll,Lance Stroll,aston_martin,13,Points,Classified,Outside Points,0.017359590307649487,0.42957576190556074,0.55306464778678965
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,tsunoda,Yuki Tsunoda,rb,7,Points,Classified,Points,0.054171692142547592,0.5817259941355194,0.36410231372193275
+2024_07,2024,7,Emilia Romagna Grand Prix,2024-05-19,imola,zhou,Guanyu Zhou,sauber,17,Outside Points,Classified,Outside Points,0,0.030238218392190368,0.96976178160781057
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,albon,Alexander Albon,williams,9,Points,Classified,Outside Points,0.019128937097735645,0.37364989509192831,0.60722116781033586
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,alonso,Fernando Alonso,aston_martin,14,Outside Points,Classified,Outside Points,0.010900422872858915,0.37940709672811479,0.60969248039902624
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,bottas,Valtteri Bottas,sauber,17,Outside Points,Classified,Outside Points,0.00031454546745932109,0.092932422409985282,0.90675303212255576
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,gasly,Pierre Gasly,alpine,10,Points,Classified,Outside Points,0.016906465695278927,0.38475530993159113,0.59833822437312978
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,hamilton,Lewis Hamilton,mercedes,7,Points,Classified,Points,0.11241188753464065,0.61688033281674381,0.27070777964861575
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,hulkenberg,Nico Hülkenberg,haas,19,Outside Points,DNF,Outside Points,0.0078400038056421033,0.29821726685687383,0.69394272933748413
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,kevin_magnussen,Kevin Magnussen,haas,20,Outside Points,DNF,Outside Points,0.0013414800759103597,0.15315837025013668,0.84550014967395226
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,leclerc,Charles Leclerc,ferrari,1,Top 3,Classified,Top 3,0.77462786175613985,0.1200003561095672,0.10537178213429317
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,max_verstappen,Max Verstappen,red_bull,6,Points,Classified,Points,0.37162412714604753,0.43230487403913304,0.19607099881481985
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,norris,Lando Norris,mclaren,4,Points,Classified,Points,0.38924614685978914,0.416123283734745,0.19463056940546533
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,ocon,Esteban Ocon,alpine,11,Outside Points,DNF,Outside Points,0.011699347769369595,0.3384253339177325,0.64987531831289724
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,perez,Sergio Pérez,red_bull,16,Outside Points,DNF,Points,0.14893387857778623,0.53845484352170137,0.31261127790051224
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.56691302080837969,0.29504091714787639,0.13804606204374417
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,ricciardo,Daniel Ricciardo,rb,12,Outside Points,Classified,Outside Points,0.018499985636541063,0.41286098535679833,0.56863902900666041
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,russell,George Russell,mercedes,5,Points,Classified,Points,0.17096331441391055,0.60357930222553879,0.22545738336055104
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,sainz,Carlos Sainz,ferrari,3,Top 3,Classified,Top 3,0.58001905040289869,0.28272078115933913,0.13726016843776179
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,sargeant,Logan Sargeant,williams,15,Outside Points,Classified,Outside Points,5.376344086021506e-05,0.052195651200332753,0.94775058535880807
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,stroll,Lance Stroll,aston_martin,13,Outside Points,Classified,Outside Points,0.017386875208104481,0.4252499903152156,0.55736313447667973
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,tsunoda,Yuki Tsunoda,rb,8,Points,Classified,Points,0.045859843446808518,0.55408575167203089,0.40005440488116084
+2024_08,2024,8,Monaco Grand Prix,2024-05-26,monaco,zhou,Guanyu Zhou,sauber,18,Outside Points,Classified,Outside Points,0,0.018850722937136844,0.98114927706286426
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,albon,Alexander Albon,williams,10,Outside Points,DNF,Outside Points,0.018074583828578766,0.40086160107924484,0.58106381509217631
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,alonso,Fernando Alonso,aston_martin,6,Points,Classified,Points,0.071883064541570271,0.60628955083873071,0.3218273846196994
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,bottas,Valtteri Bottas,sauber,19,Outside Points,Classified,Outside Points,0.0006930599688836621,0.095364572016581661,0.90394236801453576
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,gasly,Pierre Gasly,alpine,15,Points,Classified,Outside Points,0.0029712053326612564,0.1878423137896453,0.80918648087769351
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,hamilton,Lewis Hamilton,mercedes,7,Points,Classified,Points,0.14543195674943127,0.60630434275958178,0.24826370049098748
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,hulkenberg,Nico Hülkenberg,haas,17,Outside Points,Classified,Outside Points,0.0014254200826562785,0.16631397775380258,0.83226060216354114
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,kevin_magnussen,Kevin Magnussen,haas,14,Outside Points,Classified,Outside Points,0.0029099532211312893,0.17534233846972011,0.82174770830914834
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,leclerc,Charles Leclerc,ferrari,11,Outside Points,DNF,Points,0.21234334288306944,0.5519474892484566,0.2357091678684741
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.71865523985982915,0.17439221358918264,0.10695254655098818
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,norris,Lando Norris,mclaren,3,Top 3,Classified,Top 3,0.56627302560847692,0.28969434495894397,0.14403262943257883
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,ocon,Esteban Ocon,alpine,18,Points,Classified,Outside Points,0.00061099172480565914,0.13283175144272616,0.86655725683246843
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,perez,Sergio Pérez,red_bull,16,Outside Points,DNF,Points,0.12430418773198718,0.54588795810802393,0.32980785415998864
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,piastri,Oscar Piastri,mclaren,4,Points,Classified,Points,0.35461152594167639,0.4813640131954452,0.16402446086287845
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,ricciardo,Daniel Ricciardo,rb,5,Points,Classified,Points,0.097036695620889693,0.57184448725876891,0.33111881712034125
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,russell,George Russell,mercedes,1,Top 3,Classified,Top 3,0.57793642657655009,0.28620003973780944,0.13586353368564089
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,sainz,Carlos Sainz,ferrari,12,Outside Points,DNF,Points,0.16089102067966687,0.57124498360162301,0.26786399571871
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,sargeant,Logan Sargeant,williams,13,Outside Points,DNF,Outside Points,0.0032966344885354648,0.18164158652470172,0.81506177898676369
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,stroll,Lance Stroll,aston_martin,9,Points,Classified,Points,0.032216341028290615,0.55212727726195465,0.41565638170975533
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,tsunoda,Yuki Tsunoda,rb,8,Outside Points,Classified,Points,0.046707796476467667,0.55603278138620149,0.39725942213733112
+2024_09,2024,9,Canadian Grand Prix,2024-06-09,villeneuve,zhou,Guanyu Zhou,sauber,20,Outside Points,Classified,Outside Points,0,0.025072798046346545,0.97492720195365412
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,albon,Alexander Albon,williams,20,Outside Points,Classified,Outside Points,0.00066104765555985846,0.10639229820125505,0.89294665414318586
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,alonso,Fernando Alonso,aston_martin,10,Outside Points,Classified,Points,0.03554219890895241,0.59160902583209429,0.3728487752589541
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,bottas,Valtteri Bottas,sauber,12,Outside Points,Classified,Outside Points,0.0049718534545734501,0.20858794624355464,0.78644020030187267
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,gasly,Pierre Gasly,alpine,7,Points,Classified,Points,0.046128457668513076,0.5178926405811114,0.43597890175037535
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,hamilton,Lewis Hamilton,mercedes,3,Top 3,Classified,Top 3,0.52863543005248703,0.3260131543896298,0.14535141555788303
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,hulkenberg,Nico Hülkenberg,haas,13,Outside Points,Classified,Outside Points,0.0092623597391037985,0.34526003689712198,0.64547760336377391
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,kevin_magnussen,Kevin Magnussen,haas,16,Outside Points,Classified,Outside Points,0.00060023965314680359,0.1223582034673087,0.87704155687954444
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,leclerc,Charles Leclerc,ferrari,5,Points,Classified,Points,0.34641736890762259,0.45974775762192061,0.19383487347045719
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.80504984788281564,0.10780152977120959,0.087148622345975243
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.77235072034774821,0.12235201659418514,0.10529726305806671
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,ocon,Esteban Ocon,alpine,8,Points,Classified,Outside Points,0.026795659834836082,0.46559888397278182,0.5076054561923824
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,perez,Sergio Pérez,red_bull,11,Points,Classified,Points,0.12948459371625043,0.5994062629819521,0.27110914330179692
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,piastri,Oscar Piastri,mclaren,9,Points,Classified,Points,0.16004939846826288,0.61727442232425656,0.22267617920748073
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,ricciardo,Daniel Ricciardo,rb,18,Outside Points,Classified,Outside Points,0.0045904651675453025,0.25472697719879184,0.74068255763366297
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,russell,George Russell,mercedes,4,Points,Classified,Points,0.35660576772665875,0.47046644756219691,0.1729277847111442
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,sainz,Carlos Sainz,ferrari,6,Points,Classified,Points,0.28906088469029284,0.51679914505599611,0.1941399702537116
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,sargeant,Logan Sargeant,williams,19,Outside Points,Classified,Outside Points,3.9962674456345341e-05,0.039865657057757221,0.96009438026778726
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,stroll,Lance Stroll,aston_martin,14,Outside Points,Classified,Outside Points,0.014825587803985431,0.40350777223586243,0.58166663996015189
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,tsunoda,Yuki Tsunoda,rb,17,Outside Points,Classified,Outside Points,0.0050657529439343887,0.25509099430258692,0.73984325275347862
+2024_10,2024,10,Spanish Grand Prix,2024-06-23,catalunya,zhou,Guanyu Zhou,sauber,15,Outside Points,Classified,Outside Points,0.0012493522611597989,0.093846415360171562,0.90490423237866902
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,albon,Alexander Albon,williams,16,Outside Points,Classified,Outside Points,0.00087576136102144935,0.12386864505045775,0.87525559358852167
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,alonso,Fernando Alonso,aston_martin,15,Outside Points,Classified,Outside Points,0.0087792619113871689,0.3404906013824987,0.65073013670611402
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,bottas,Valtteri Bottas,sauber,18,Outside Points,Classified,Outside Points,0.00016428571428571428,0.075874503407351856,0.92396121087836225
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,gasly,Pierre Gasly,alpine,13,Points,Classified,Outside Points,0.011548137100726804,0.34831530306476571,0.64013655983450735
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,hamilton,Lewis Hamilton,mercedes,5,Points,Classified,Points,0.20295834337999832,0.59960485477029257,0.19743680184970924
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,hulkenberg,Nico Hülkenberg,haas,9,Points,Classified,Outside Points,0.023663037107029977,0.45834558140706966,0.51799138148590018
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,kevin_magnussen,Kevin Magnussen,haas,12,Points,Classified,Outside Points,0.0048768294820076162,0.24165262678032717,0.7534705437376652
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,leclerc,Charles Leclerc,ferrari,6,Outside Points,Classified,Points,0.23634687137124058,0.5577045833194868,0.20594854530927298
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,max_verstappen,Max Verstappen,red_bull,1,Points,Classified,Top 3,0.82239715851165673,0.092768157514257349,0.084834683974086306
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,norris,Lando Norris,mclaren,2,Outside Points,Classified,Top 3,0.66178619380638926,0.20757382693984514,0.13063997925376547
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,ocon,Esteban Ocon,alpine,10,Outside Points,Classified,Outside Points,0.025181667672085784,0.45909229745171731,0.51572603487619662
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,perez,Sergio Pérez,red_bull,8,Points,Classified,Points,0.12235697619723097,0.61756220759623648,0.26008081620653212
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,piastri,Oscar Piastri,mclaren,7,Top 3,Classified,Points,0.14658724693735403,0.63751078250149729,0.21590197056114888
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,ricciardo,Daniel Ricciardo,rb,11,Points,Classified,Outside Points,0.026523340988026143,0.48574247672702747,0.48773418228494675
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,russell,George Russell,mercedes,3,Top 3,Classified,Top 3,0.51255927033775039,0.3602145522498178,0.12722617741243139
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,sainz,Carlos Sainz,ferrari,4,Top 3,Classified,Points,0.34331701100205281,0.48707092713256417,0.16961206186538266
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,sargeant,Logan Sargeant,williams,19,Outside Points,Classified,Outside Points,3.9962674456345341e-05,0.043599911205171128,0.95636012612037358
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,stroll,Lance Stroll,aston_martin,17,Outside Points,Classified,Outside Points,0.0054991895664549765,0.27685679208448111,0.71764401834906322
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,tsunoda,Yuki Tsunoda,rb,14,Outside Points,Classified,Outside Points,0.014205504475721496,0.36641025700039137,0.61938423852388702
+2024_11,2024,11,Austrian Grand Prix,2024-06-30,red_bull_ring,zhou,Guanyu Zhou,sauber,20,Outside Points,Classified,Outside Points,1.2722646310432571e-05,0.021673649532245546,0.97831362782144493
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,albon,Alexander Albon,williams,9,Points,Classified,Outside Points,0.019574524940118843,0.38593123898527382,0.59449423607460761
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,alonso,Fernando Alonso,aston_martin,10,Points,Classified,Points,0.03128076131946092,0.56672751600336357,0.40199172267717564
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.00015231958762886597,0.068881095487699856,0.9309665849246711
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,gasly,Pierre Gasly,alpine,19,Outside Points,DNS,Outside Points,0.0019738398231207415,0.17086969388866438,0.82715646628821549
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,hamilton,Lewis Hamilton,mercedes,2,Top 3,Classified,Top 3,0.6060203593520308,0.25555165692650483,0.13842798372146445
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,hulkenberg,Nico Hülkenberg,haas,6,Points,Classified,Points,0.077798035710399449,0.56968470577253016,0.35251725851707094
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,kevin_magnussen,Kevin Magnussen,haas,17,Outside Points,Classified,Outside Points,0.0016151917317151498,0.15951649982947458,0.83886830843881
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,leclerc,Charles Leclerc,ferrari,11,Outside Points,Classified,Points,0.15010576011108254,0.59430865771880659,0.25558558217011085
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,max_verstappen,Max Verstappen,red_bull,4,Top 3,Classified,Top 3,0.45870327222530266,0.369341112089352,0.17195561568534479
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,norris,Lando Norris,mclaren,3,Top 3,Classified,Top 3,0.61782120878204949,0.25377465925283582,0.12840413196511469
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,ocon,Esteban Ocon,alpine,18,Outside Points,Classified,Outside Points,0.00096743468629235301,0.14200086137816614,0.85703170393554162
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,perez,Sergio Pérez,red_bull,20,Outside Points,Classified,Points,0.093712843638232582,0.4827614932469958,0.42352566311477186
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,piastri,Oscar Piastri,mclaren,5,Points,Classified,Points,0.28088307848775457,0.52380253070706817,0.19531439080517729
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,ricciardo,Daniel Ricciardo,rb,15,Outside Points,Classified,Outside Points,0.0040409474576006488,0.27211407959573647,0.72384497294666272
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,russell,George Russell,mercedes,1,Outside Points,DNF,Top 3,0.75022583824116584,0.14524437430906306,0.10452978744977129
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,sainz,Carlos Sainz,ferrari,7,Points,Classified,Points,0.21899779667545619,0.55670960552651183,0.22429259779803207
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,sargeant,Logan Sargeant,williams,12,Outside Points,Classified,Outside Points,0.0043245284752094545,0.18979878463803254,0.80587668688675873
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,stroll,Lance Stroll,aston_martin,8,Points,Classified,Points,0.040239969984849903,0.57005847159129841,0.3897015584238519
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,tsunoda,Yuki Tsunoda,rb,13,Points,Classified,Outside Points,0.013857535811462859,0.38893886065374383,0.59720360353479296
+2024_12,2024,12,British Grand Prix,2024-07-07,silverstone,zhou,Guanyu Zhou,sauber,14,Outside Points,Classified,Outside Points,0.00015577009425622536,0.064051046757030147,0.93579318314871396
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,albon,Alexander Albon,williams,13,Outside Points,Classified,Outside Points,0.0063083011075644466,0.27825360465283555,0.71543809423959981
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,alonso,Fernando Alonso,aston_martin,7,Outside Points,Classified,Points,0.049970518056983437,0.62913429535607668,0.32089518658694005
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,bottas,Valtteri Bottas,sauber,12,Outside Points,Classified,Outside Points,0.004511677937222733,0.19907271706183427,0.79641560500094366
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,gasly,Pierre Gasly,alpine,20,Outside Points,DNF,Outside Points,0.001367089967752768,0.14799315544195527,0.85063975459029206
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,hamilton,Lewis Hamilton,mercedes,5,Top 3,Classified,Points,0.22993400281967483,0.57220215586178591,0.19786384131853932
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,hulkenberg,Nico Hülkenberg,haas,11,Outside Points,Classified,Points,0.026691485439586701,0.48865390902139649,0.48465460553901735
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,kevin_magnussen,Kevin Magnussen,haas,15,Outside Points,Classified,Outside Points,0.0078298503037120323,0.2465503130977556,0.74561983659853126
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,leclerc,Charles Leclerc,ferrari,6,Points,Classified,Points,0.17811829636810803,0.59423323567942243,0.22764846795246946
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,max_verstappen,Max Verstappen,red_bull,3,Points,Classified,Top 3,0.69351694019329324,0.18686438022008767,0.11961867958661879
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.80420754518788684,0.10188510120706205,0.093907353605050953
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,ocon,Esteban Ocon,alpine,19,Outside Points,Classified,Outside Points,0.00081586062934184498,0.1226478442315854,0.87653629513907272
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,perez,Sergio Pérez,red_bull,16,Points,Classified,Outside Points,0.073242649321400538,0.43826315047146047,0.48849420020713913
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.69424859878444289,0.18044095073406638,0.12531045048149053
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,ricciardo,Daniel Ricciardo,rb,9,Outside Points,Classified,Points,0.032309525808141261,0.52948196105520584,0.43820851313665299
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,russell,George Russell,mercedes,17,Points,Classified,Points,0.12245930174320002,0.5213153641327265,0.35622533412407348
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,sainz,Carlos Sainz,ferrari,4,Points,Classified,Points,0.41366925913221586,0.41970618168066759,0.16662455918711655
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,sargeant,Logan Sargeant,williams,14,Outside Points,Classified,Outside Points,0.0020712482344143056,0.15811679343038371,0.83981195833520217
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,stroll,Lance Stroll,aston_martin,8,Points,Classified,Points,0.040199770406856281,0.58709211513854764,0.37270811445459634
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,tsunoda,Yuki Tsunoda,rb,10,Points,Classified,Points,0.028221328648273127,0.50237283606288263,0.46940583528884405
+2024_13,2024,13,Hungarian Grand Prix,2024-07-21,hungaroring,zhou,Guanyu Zhou,sauber,18,Outside Points,Classified,Outside Points,0,0.022068900952744691,0.97793109904725595
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,albon,Alexander Albon,williams,10,Outside Points,Classified,Outside Points,0.015441578044374181,0.37739809751421716,0.60716032444140877
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,alonso,Fernando Alonso,aston_martin,8,Points,Classified,Points,0.040965183975012899,0.60778374976843852,0.35125106625654889
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,bottas,Valtteri Bottas,sauber,14,Outside Points,Classified,Outside Points,0.0021231153556223801,0.13952833200106873,0.85834855264330923
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,gasly,Pierre Gasly,alpine,12,Outside Points,Classified,Outside Points,0.0089069799820938843,0.32187196394125528,0.66922105607665061
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,hamilton,Lewis Hamilton,mercedes,3,Top 3,Classified,Top 3,0.50390674820967307,0.34993835174680787,0.14615490004351928
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,hulkenberg,Nico Hülkenberg,haas,16,Outside Points,Classified,Outside Points,0.0037969886841816543,0.2548717664109158,0.74133124490490299
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,kevin_magnussen,Kevin Magnussen,haas,17,Outside Points,Classified,Outside Points,0.0014299507563027456,0.16247317992390886,0.83609686931978811
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,leclerc,Charles Leclerc,ferrari,1,Top 3,Classified,Top 3,0.53471457993694194,0.31619359367343647,0.14909182638962171
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,max_verstappen,Max Verstappen,red_bull,11,Points,Classified,Top 3,0.53305540165905119,0.30736920864235412,0.15957538969859481
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,norris,Lando Norris,mclaren,4,Points,Classified,Top 3,0.41632267236458825,0.39042094523570703,0.19325638239970439
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,ocon,Esteban Ocon,alpine,9,Points,Classified,Outside Points,0.021527006702920543,0.43072824376727292,0.54774474952980656
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,perez,Sergio Pérez,red_bull,2,Points,Classified,Top 3,0.47052672222328729,0.36638781538677084,0.1630854623899419
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,piastri,Oscar Piastri,mclaren,5,Top 3,Classified,Points,0.25556404741065114,0.53102404345111553,0.21341190913823335
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,ricciardo,Daniel Ricciardo,rb,13,Points,Classified,Outside Points,0.01337811059218947,0.38493787011322722,0.60168401929458293
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,russell,George Russell,mercedes,6,Outside Points,Classified,Points,0.14535024356830908,0.63671271403755347,0.21793704239413747
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,sainz,Carlos Sainz,ferrari,7,Points,Classified,Points,0.13771122206363276,0.61554919770252881,0.24673958023383846
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,sargeant,Logan Sargeant,williams,18,Outside Points,Classified,Outside Points,6.5835065835065842e-05,0.053117559396816408,0.94681660553735003
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,stroll,Lance Stroll,aston_martin,15,Outside Points,Classified,Outside Points,0.0082320529239378153,0.34317736040863323,0.6485905866674293
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,tsunoda,Yuki Tsunoda,rb,20,Outside Points,Classified,Outside Points,0.0034430558176601982,0.24986421037622783,0.74669273380611234
+2024_14,2024,14,Belgian Grand Prix,2024-07-28,spa,zhou,Guanyu Zhou,sauber,19,Outside Points,DNF,Outside Points,0,0.01581689205365449,0.98418310794634678
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,albon,Alexander Albon,williams,19,Outside Points,Classified,Outside Points,0.0071280718861542799,0.23603839068327812,0.75683353743056836
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,alonso,Fernando Alonso,aston_martin,7,Points,Classified,Points,0.043124577712737693,0.63594273621027408,0.32093268607698816
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.00039186505508818708,0.077660908408169735,0.92194722653674244
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,gasly,Pierre Gasly,alpine,9,Points,Classified,Outside Points,0.020539768671918895,0.46622206269059907,0.51323816863748217
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,hamilton,Lewis Hamilton,mercedes,14,Points,Classified,Points,0.15761776748917014,0.55499715389036275,0.28738507862046708
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,hulkenberg,Nico Hülkenberg,haas,12,Outside Points,Classified,Outside Points,0.0066359737875079572,0.34160848689465084,0.65175553931784169
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,kevin_magnussen,Kevin Magnussen,haas,20,Outside Points,Classified,Outside Points,0.0030794510629748978,0.19717882804051939,0.79974172089650541
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,leclerc,Charles Leclerc,ferrari,6,Top 3,Classified,Points,0.1988042143133617,0.57690769497206329,0.22428809071457537
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.71203421631205299,0.17713659241907692,0.11082919126886973
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.80138195783407018,0.10131003630363228,0.097308005862297847
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,ocon,Esteban Ocon,alpine,15,Outside Points,Classified,Outside Points,0.0014044411545527935,0.16195158377269114,0.83664397507275656
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,perez,Sergio Pérez,red_bull,5,Points,Classified,Points,0.16218603084369149,0.6226825590441486,0.21513141011216003
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,piastri,Oscar Piastri,mclaren,3,Points,Classified,Top 3,0.51610439858512802,0.34184976114152738,0.14204584027334427
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,ricciardo,Daniel Ricciardo,rb,13,Outside Points,Classified,Outside Points,0.0042695850058440538,0.27460855365893161,0.72112186133522482
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,russell,George Russell,mercedes,4,Points,Classified,Points,0.28441534300852478,0.55227217731604628,0.16331247967542897
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,sainz,Carlos Sainz,ferrari,10,Points,Classified,Points,0.15967371290235366,0.59367313183004045,0.24665315526760648
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,sargeant,Logan Sargeant,williams,18,Outside Points,Classified,Outside Points,0.00015025467371067113,0.069811303271867686,0.9300384420544221
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,stroll,Lance Stroll,aston_martin,8,Outside Points,Classified,Points,0.036608872865080522,0.58962249287343105,0.37376863426148837
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,tsunoda,Yuki Tsunoda,rb,11,Outside Points,Classified,Outside Points,0.01593425633311563,0.41843813543961722,0.56562760822726721
+2024_15,2024,15,Dutch Grand Prix,2024-08-25,zandvoort,zhou,Guanyu Zhou,sauber,17,Outside Points,Classified,Outside Points,0,0.017901911912866508,0.98209808808713417
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,albon,Alexander Albon,williams,9,Points,Classified,Outside Points,0.022014702669338009,0.42488914707585673,0.55309615025480574
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,alonso,Fernando Alonso,aston_martin,11,Outside Points,Classified,Points,0.032105482653347985,0.56837843198772142,0.39951608535893063
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,bottas,Valtteri Bottas,sauber,19,Outside Points,Classified,Outside Points,0.00053623281060353155,0.070872670957550496,0.92859109623184688
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,colapinto,Franco Colapinto,williams,18,Outside Points,Classified,Outside Points,0.00061311617308012372,0.12646804065607709,0.87291884317084334
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,gasly,Pierre Gasly,alpine,14,Outside Points,Classified,Outside Points,0.0061747640160316605,0.26340872315185526,0.7304165128321124
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,hamilton,Lewis Hamilton,mercedes,6,Points,Classified,Points,0.25016570310020497,0.55076531664664319,0.19906898025315223
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,hulkenberg,Nico Hülkenberg,haas,10,Outside Points,Classified,Points,0.033777467745661663,0.52541232853249165,0.44081020372184726
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,kevin_magnussen,Kevin Magnussen,haas,13,Points,Classified,Outside Points,0.011234629964976232,0.31429606126077719,0.67446930877424605
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,leclerc,Charles Leclerc,ferrari,4,Top 3,Classified,Top 3,0.44059170508009549,0.38608722172516674,0.1733210731947378
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,max_verstappen,Max Verstappen,red_bull,7,Points,Classified,Points,0.36500727154777379,0.43288145849437043,0.20211126995785633
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.81100772069815075,0.095078156684246198,0.093914122617603513
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,ocon,Esteban Ocon,alpine,15,Outside Points,Classified,Outside Points,0.004761632080453001,0.22212381696152531,0.77311455095802084
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,perez,Sergio Pérez,red_bull,8,Points,Classified,Points,0.11195903353198723,0.64070440107826199,0.24733656538975071
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.6663554844201659,0.20187153429673924,0.1317729812830945
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,ricciardo,Daniel Ricciardo,rb,12,Outside Points,Classified,Outside Points,0.016904168081373624,0.42781204290696229,0.5552837890116642
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,russell,George Russell,mercedes,3,Points,Classified,Top 3,0.53841666770398622,0.32306502505657825,0.13851830723943626
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,sainz,Carlos Sainz,ferrari,5,Points,Classified,Points,0.35049942004864504,0.45253410710310599,0.19696647284824942
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,stroll,Lance Stroll,aston_martin,17,Outside Points,Classified,Outside Points,0.0086175200023841606,0.3032241368156926,0.68815834318192315
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,tsunoda,Yuki Tsunoda,rb,16,Outside Points,DNF,Outside Points,0.0058842671896880798,0.28061582480467562,0.71349990800563656
+2024_16,2024,16,Italian Grand Prix,2024-09-01,monza,zhou,Guanyu Zhou,sauber,20,Outside Points,Classified,Outside Points,0,0.012537270459918563,0.98746272954008252
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,albon,Alexander Albon,williams,9,Points,Classified,Outside Points,0.025253784758171163,0.46051883235174906,0.51422738289007996
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,alonso,Fernando Alonso,aston_martin,7,Points,Classified,Points,0.047574660066566576,0.6306141122488268,0.32181122768460663
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,bearman,Oliver Bearman,haas,10,Points,Classified,Outside Points,0.026673913805374726,0.46972648869827233,0.50359959749635264
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.00029886722122505067,0.069922592955656726,0.92977853982311809
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,colapinto,Franco Colapinto,williams,8,Points,Classified,Outside Points,0.023271768603933974,0.39158835720565044,0.58513987419041569
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,gasly,Pierre Gasly,alpine,18,Outside Points,Classified,Outside Points,0.003801865981511028,0.21254983613577447,0.78364829788271451
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,hamilton,Lewis Hamilton,mercedes,19,Points,Classified,Points,0.14060296815144377,0.57400795950114958,0.28538907234740657
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,hulkenberg,Nico Hülkenberg,haas,12,Outside Points,Classified,Outside Points,0.012972002707500168,0.39697658107700012,0.59005141621549906
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,leclerc,Charles Leclerc,ferrari,1,Top 3,Classified,Top 3,0.72117914080798817,0.15500176247085018,0.12381909672116112
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,max_verstappen,Max Verstappen,red_bull,6,Points,Classified,Points,0.3258990626684608,0.47456945482494173,0.19953148250659802
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,norris,Lando Norris,mclaren,15,Points,Classified,Points,0.1854586671036885,0.52813244535640991,0.28640888753990162
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,ocon,Esteban Ocon,alpine,20,Outside Points,Classified,Outside Points,0.00041738039583673835,0.12078215416191432,0.8788004654422491
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,perez,Sergio Pérez,red_bull,4,Outside Points,Classified,Points,0.32685377334468479,0.49555985160378063,0.17758637505153499
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.63771566102283783,0.2333501158481367,0.12893422312902536
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,ricciardo,Daniel Ricciardo,rb,14,Outside Points,Classified,Outside Points,0.0041976371620525196,0.2689573994941617,0.72684496334378546
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,russell,George Russell,mercedes,5,Top 3,Classified,Points,0.20296264824520979,0.59244764314353904,0.20458970861125145
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,sainz,Carlos Sainz,ferrari,3,Outside Points,Classified,Top 3,0.57748068337873282,0.28642893931446345,0.13609037730680362
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,stroll,Lance Stroll,aston_martin,13,Outside Points,Classified,Outside Points,0.013383666277407271,0.40476121096217282,0.58185512276041951
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,tsunoda,Yuki Tsunoda,rb,11,Outside Points,DNF,Outside Points,0.015222312236735123,0.41742475680110902,0.56735293096215589
+2024_17,2024,17,Azerbaijan Grand Prix,2024-09-15,baku,zhou,Guanyu Zhou,sauber,17,Outside Points,Classified,Outside Points,0,0.014414637056687496,0.98558536294331334
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,albon,Alexander Albon,williams,11,Outside Points,DNF,Outside Points,0.027270860395554545,0.45907749982790991,0.5136516397765355
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,alonso,Fernando Alonso,aston_martin,7,Points,Classified,Points,0.054472775038644838,0.63386230337825122,0.31166492158310422
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,bottas,Valtteri Bottas,sauber,19,Outside Points,Classified,Outside Points,0.00021583210603829159,0.058651283803144522,0.94113288409081763
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,colapinto,Franco Colapinto,williams,12,Outside Points,Classified,Outside Points,0.017137813845048481,0.35597955963452838,0.62688262652042259
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,gasly,Pierre Gasly,alpine,18,Outside Points,Classified,Outside Points,0.0027322204486042848,0.17928361922847741,0.8179841603229181
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,hamilton,Lewis Hamilton,mercedes,3,Points,Classified,Top 3,0.55842835614373443,0.30381393651057853,0.13775770734568726
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,hulkenberg,Nico Hülkenberg,haas,6,Points,Classified,Points,0.052771388509131413,0.53008095350609519,0.41714765798477371
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,kevin_magnussen,Kevin Magnussen,haas,14,Outside Points,Classified,Outside Points,0.0051230687631182263,0.23815657104755034,0.75672036018933087
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,leclerc,Charles Leclerc,ferrari,9,Points,Classified,Points,0.33012515154252248,0.45844861725224073,0.21142623120523724
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.7081164323153506,0.17713315170035937,0.11475041598429042
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.78558860062836056,0.10532971743742806,0.10908168193421193
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,ocon,Esteban Ocon,alpine,15,Outside Points,Classified,Outside Points,0.0031664856649549124,0.19544341230617227,0.80139010202887262
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,perez,Sergio Pérez,red_bull,13,Points,Classified,Points,0.10301405000233795,0.54228010694979456,0.3547058430478679
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,piastri,Oscar Piastri,mclaren,5,Top 3,Classified,Top 3,0.41956078857729456,0.38167365663360309,0.19876555478910202
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,ricciardo,Daniel Ricciardo,rb,16,Outside Points,Classified,Outside Points,0.0078911881628179643,0.2794209220952214,0.71268788974196073
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,russell,George Russell,mercedes,4,Points,Classified,Points,0.33346893384699838,0.49448611783540997,0.1720449483175916
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,sainz,Carlos Sainz,ferrari,10,Points,Classified,Points,0.22894143585351265,0.54349184539437834,0.22756671875210979
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,stroll,Lance Stroll,aston_martin,17,Outside Points,Classified,Outside Points,0.01195261029138992,0.32367454263373391,0.66437284707487521
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,tsunoda,Yuki Tsunoda,rb,8,Outside Points,Classified,Points,0.030809660093606247,0.49395033218299939,0.4752400077233947
+2024_18,2024,18,Singapore Grand Prix,2024-09-22,marina_bay,zhou,Guanyu Zhou,sauber,20,Outside Points,Classified,Outside Points,0,0.015340285183647941,0.98465971481635317
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,albon,Alexander Albon,williams,14,Outside Points,Classified,Outside Points,0.010050096397102826,0.30355502556903874,0.68639487803385824
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,alonso,Fernando Alonso,aston_martin,7,Outside Points,Classified,Points,0.049490363511315846,0.6286245372337298,0.32188509925495445
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,bottas,Valtteri Bottas,sauber,16,Outside Points,Classified,Outside Points,0.0013106042630814684,0.071832350959274288,0.92685704477764475
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,colapinto,Franco Colapinto,williams,15,Points,Classified,Outside Points,0.0075658097622221185,0.23693566128797966,0.75549852894979797
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,gasly,Pierre Gasly,alpine,6,Outside Points,Classified,Outside Points,0.031877227727335852,0.4805176113312829,0.48760516094138123
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,hamilton,Lewis Hamilton,mercedes,17,Outside Points,DNF,Points,0.12234631290599025,0.55326356409790456,0.32439012299610509
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,hulkenberg,Nico Hülkenberg,haas,11,Points,Classified,Outside Points,0.014527887957008392,0.41836838225847012,0.56710372978452195
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,kevin_magnussen,Kevin Magnussen,haas,8,Outside Points,Classified,Outside Points,0.01976937169893082,0.43258722992066195,0.5476433983804071
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,lawson,Liam Lawson,rb,19,Points,Classified,Outside Points,0.0054161381067961371,0.201291330050832,0.79329253184237158
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,leclerc,Charles Leclerc,ferrari,4,Top 3,Classified,Top 3,0.42774534541050907,0.39593759847352195,0.17631705611596904
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.75119881909123809,0.13697938762353729,0.11182179328522439
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,norris,Lando Norris,mclaren,1,Points,Classified,Top 3,0.79329668299078859,0.099893353898632228,0.10680996311057955
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,ocon,Esteban Ocon,alpine,12,Outside Points,Classified,Outside Points,0.0060892769140665172,0.27361233051397582,0.72029839257195727
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,perez,Sergio Pérez,red_bull,9,Points,Classified,Points,0.12647945367517618,0.62398348982538665,0.24953705649943733
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,piastri,Oscar Piastri,mclaren,5,Points,Classified,Points,0.35691692818113607,0.44110956551348018,0.20197350630538363
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,russell,George Russell,mercedes,20,Points,Classified,Points,0.13447883426663687,0.58293123534169822,0.28258993039166513
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,sainz,Carlos Sainz,ferrari,3,Top 3,Classified,Top 3,0.55467831061149331,0.30683743620416903,0.1384842531843378
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,stroll,Lance Stroll,aston_martin,13,Outside Points,Classified,Outside Points,0.014595813118336638,0.39179927683102755,0.59360491005063531
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,tsunoda,Yuki Tsunoda,rb,10,Outside Points,Classified,Outside Points,0.021123609456478579,0.47167797301830333,0.50719841752521855
+2024_19,2024,19,United States Grand Prix,2024-10-20,americas,zhou,Guanyu Zhou,sauber,18,Outside Points,Classified,Outside Points,0.00020199888044036013,0.025703946551502002,0.97409405456805853
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,albon,Alexander Albon,williams,9,Outside Points,DNF,Points,0.027772154731829687,0.51016259010816711,0.46206525516000313
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,alonso,Fernando Alonso,aston_martin,13,Outside Points,DNF,Outside Points,0.027565096230720024,0.44612558938515806,0.52630931438412187
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,bottas,Valtteri Bottas,sauber,15,Outside Points,Classified,Outside Points,0.0014304046791209389,0.094346637974095066,0.90422295734678404
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,colapinto,Franco Colapinto,williams,16,Outside Points,Classified,Outside Points,0.0027476299999970285,0.20605650913142365,0.7911958608685794
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,gasly,Pierre Gasly,alpine,8,Points,Classified,Outside Points,0.022461434346643206,0.4317677304757741,0.54577083517758307
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,hamilton,Lewis Hamilton,mercedes,6,Points,Classified,Points,0.1304698752773463,0.63573365379551761,0.23379647092713596
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,hulkenberg,Nico Hülkenberg,haas,10,Points,Classified,Points,0.031391290571029233,0.54840882404354563,0.42019988538542535
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,kevin_magnussen,Kevin Magnussen,haas,7,Points,Classified,Points,0.038045292388804934,0.54697246068081107,0.41498224693038382
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,lawson,Liam Lawson,rb,12,Outside Points,Classified,Outside Points,0.010896223784223136,0.31006935825852827,0.6790344179572485
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,leclerc,Charles Leclerc,ferrari,4,Top 3,Classified,Top 3,0.4473297335034353,0.36312063520118593,0.1895496312953785
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,max_verstappen,Max Verstappen,red_bull,2,Points,Classified,Top 3,0.70303054110557628,0.18048692786650788,0.11648253102791607
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,norris,Lando Norris,mclaren,3,Top 3,Classified,Top 3,0.61422860141234237,0.25371400561839896,0.13205739296925825
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,ocon,Esteban Ocon,alpine,20,Outside Points,Classified,Outside Points,0.00038243421612664861,0.12204556475133796,0.87757200103253519
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,perez,Sergio Pérez,red_bull,18,Outside Points,Classified,Points,0.099188037276658758,0.50870761928866626,0.3921043434346751
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,piastri,Oscar Piastri,mclaren,17,Points,Classified,Points,0.16902926656614847,0.53539987225619534,0.29557086117765591
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,russell,George Russell,mercedes,5,Points,Classified,Points,0.24563225363631855,0.54878562358050298,0.20558212278317875
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,sainz,Carlos Sainz,ferrari,1,Top 3,Classified,Top 3,0.70927908252836191,0.16313726331896286,0.12758365415267439
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,stroll,Lance Stroll,aston_martin,14,Outside Points,Classified,Outside Points,0.012284019278154335,0.35926449629360602,0.62845148442823884
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,tsunoda,Yuki Tsunoda,rb,11,Outside Points,DNF,Outside Points,0.016522350298578379,0.41771096840716837,0.56576668129425345
+2024_20,2024,20,Mexico City Grand Prix,2024-10-27,rodriguez,zhou,Guanyu Zhou,sauber,19,Outside Points,Classified,Outside Points,0,0.012485789437170413,0.98751421056283017
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,albon,Alexander Albon,williams,7,Outside Points,DNS,Points,0.035694846939786723,0.5376591398545022,0.42664601320571116
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,alonso,Fernando Alonso,aston_martin,9,Outside Points,Classified,Points,0.025579956405056632,0.58417399846142548,0.39024604513351785
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,bearman,Oliver Bearman,haas,15,Outside Points,Classified,Outside Points,0.0031749203009783459,0.19988845547701131,0.79693662422200973
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,bottas,Valtteri Bottas,sauber,11,Outside Points,Classified,Outside Points,0.003751832274688617,0.21137213830034526,0.78487602942496637
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,colapinto,Franco Colapinto,williams,16,Outside Points,DNF,Outside Points,0.001195313725802283,0.1627056094670023,0.83609907680719497
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,gasly,Pierre Gasly,alpine,13,Top 3,Classified,Outside Points,0.0023467803023250705,0.22074310644536552,0.77691011325230985
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,hamilton,Lewis Hamilton,mercedes,14,Points,Classified,Points,0.10940427851559502,0.51853827700209321,0.37205744448231182
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,hulkenberg,Nico Hülkenberg,haas,18,Outside Points,DSQ,Outside Points,0.0058850253589848968,0.25461233547997769,0.73950263916103809
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,lawson,Liam Lawson,rb,5,Points,Classified,Points,0.045787836188446784,0.49527841518678173,0.45893374862477104
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,leclerc,Charles Leclerc,ferrari,6,Points,Classified,Points,0.29231734199175025,0.50063495074075792,0.20704770726749239
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,max_verstappen,Max Verstappen,red_bull,17,Top 3,Classified,Points,0.16081225765968554,0.54031261135183362,0.29887513098848045
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,norris,Lando Norris,mclaren,1,Points,Classified,Top 3,0.7937406386808793,0.100535679259114,0.10572368206000679
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,ocon,Esteban Ocon,alpine,4,Top 3,Classified,Points,0.091888097116768444,0.48611069472200691,0.42200120816122483
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,perez,Sergio Pérez,red_bull,12,Outside Points,Classified,Points,0.065973812015432551,0.49212987626337062,0.44189631172119698
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,piastri,Oscar Piastri,mclaren,8,Points,Classified,Points,0.20283716929030909,0.5597538195347298,0.23740901117496171
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,russell,George Russell,mercedes,2,Points,Classified,Top 3,0.61005310573639837,0.25515188803571798,0.13479500622788387
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,sainz,Carlos Sainz,ferrari,20,Outside Points,DNF,Points,0.16543624295812875,0.53348122462088254,0.30108253242098876
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,stroll,Lance Stroll,aston_martin,10,Outside Points,DNS,Outside Points,0.017737826635165266,0.47960852074241439,0.5026536526224209
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,tsunoda,Yuki Tsunoda,rb,3,Points,Classified,Points,0.19390102708772244,0.51236437011772673,0.2937346027945516
+2024_21,2024,21,São Paulo Grand Prix,2024-11-03,interlagos,zhou,Guanyu Zhou,sauber,19,Outside Points,Classified,Outside Points,0,0.016027528366708149,0.98397247163329227
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,albon,Alexander Albon,williams,17,Outside Points,DNF,Outside Points,0.001847718491027407,0.17869333025870696,0.81945895125026569
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,alonso,Fernando Alonso,aston_martin,16,Outside Points,Classified,Outside Points,0.017748839916400579,0.32674572655256284,0.65550543353103652
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,bottas,Valtteri Bottas,sauber,19,Outside Points,Classified,Outside Points,0.00021583210603829159,0.055657028425410295,0.94412713946855209
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,colapinto,Franco Colapinto,williams,20,Outside Points,Classified,Outside Points,0.0068007149572588107,0.2338799849813899,0.75931930006135073
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,gasly,Pierre Gasly,alpine,3,Outside Points,DNF,Points,0.33967436266497236,0.45889787590738018,0.20142776142764776
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,hamilton,Lewis Hamilton,mercedes,10,Top 3,Classified,Points,0.16980474499495121,0.57185374434569924,0.25834151065934974
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,hulkenberg,Nico Hülkenberg,haas,9,Points,Classified,Points,0.036496604895800984,0.54948616760972302,0.41401722749447645
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,kevin_magnussen,Kevin Magnussen,haas,12,Outside Points,Classified,Outside Points,0.017555434632581052,0.40710413035409226,0.57534043501332688
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,lawson,Liam Lawson,rb,14,Outside Points,Classified,Outside Points,0.0074561509149857919,0.25785378478302268,0.73469006430199135
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,leclerc,Charles Leclerc,ferrari,4,Points,Classified,Top 3,0.44725159960020733,0.37486527694755956,0.17788312345223262
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,max_verstappen,Max Verstappen,red_bull,5,Points,Classified,Points,0.39356953273413048,0.41478186265639827,0.19164860460947161
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,norris,Lando Norris,mclaren,6,Points,Classified,Points,0.30708729722104833,0.48526556995722631,0.20764713282172589
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,ocon,Esteban Ocon,alpine,11,Outside Points,Classified,Points,0.039281721106569981,0.49119774541238465,0.46952053348104522
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,perez,Sergio Pérez,red_bull,15,Points,Classified,Points,0.07411970953725612,0.48481119387480681,0.44106909658793719
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,piastri,Oscar Piastri,mclaren,8,Points,Classified,Points,0.21207228819837973,0.55477974690565168,0.23314796489596898
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,russell,George Russell,mercedes,1,Top 3,Classified,Top 3,0.69353252749464789,0.18109073152980265,0.12537674097555029
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,sainz,Carlos Sainz,ferrari,2,Top 3,Classified,Top 3,0.65354095666359524,0.21009751208035643,0.13636153125604872
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,stroll,Lance Stroll,aston_martin,18,Outside Points,Classified,Outside Points,0.0042002234218049802,0.23291460952699608,0.7628851670511988
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,tsunoda,Yuki Tsunoda,rb,7,Points,Classified,Points,0.04588963756925514,0.55758496017739168,0.39652540225335331
+2024_22,2024,22,Las Vegas Grand Prix,2024-11-23,vegas,zhou,Guanyu Zhou,sauber,13,Outside Points,Classified,Outside Points,0.0023353421962433742,0.14339744889060566,0.85426720891315211
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,albon,Alexander Albon,williams,16,Outside Points,Classified,Outside Points,0.001625020510269139,0.1688652337494122,0.82950974574031955
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,alonso,Fernando Alonso,aston_martin,8,Points,Classified,Points,0.036566078595734089,0.57541056430393356,0.38802335710033242
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,bottas,Valtteri Bottas,sauber,13,Outside Points,Classified,Outside Points,0.0025463289864606927,0.16776209636046224,0.8296915746530783
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,colapinto,Franco Colapinto,williams,19,Outside Points,DNF,Outside Points,0.00031863594791091702,0.11968630206892264,0.8799950619831669
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,gasly,Pierre Gasly,alpine,11,Points,Classified,Points,0.031236929555145451,0.51978860110630942,0.44897446933854485
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,hamilton,Lewis Hamilton,mercedes,6,Outside Points,Classified,Points,0.20961192355404001,0.57542957067234835,0.21495850577361172
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,hulkenberg,Nico Hülkenberg,haas,18,Outside Points,DNF,Outside Points,0.0068228410900928052,0.27456000464375907,0.71861715426614736
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,kevin_magnussen,Kevin Magnussen,haas,10,Points,Classified,Points,0.03121749793772817,0.51510846042049874,0.45367404164177283
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,lawson,Liam Lawson,rb,17,Outside Points,Classified,Outside Points,0.0017048410697011063,0.17919190791422004,0.81910325101607828
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,leclerc,Charles Leclerc,ferrari,5,Top 3,Classified,Points,0.38772284656856115,0.40941181968614981,0.20286533374528926
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.73739381536104942,0.14971404331505409,0.1128921413238963
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,norris,Lando Norris,mclaren,3,Points,Classified,Top 3,0.63649885250816829,0.24109849728269755,0.12240265020913423
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,ocon,Esteban Ocon,alpine,20,Outside Points,DNF,Outside Points,0.005455681351536886,0.23936599168583311,0.75517832696262988
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,perez,Sergio Pérez,red_bull,9,Outside Points,DNF,Points,0.089500210451782691,0.626999209218704,0.2835005803295132
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,piastri,Oscar Piastri,mclaren,4,Top 3,Classified,Top 3,0.41605340826719883,0.41017488823151327,0.17377170350128793
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,russell,George Russell,mercedes,1,Points,Classified,Top 3,0.71518282739005212,0.16286162244562155,0.12195555016432622
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,sainz,Carlos Sainz,ferrari,7,Points,Classified,Points,0.30635334911512574,0.48482072135481258,0.2088259295300621
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,stroll,Lance Stroll,aston_martin,15,Outside Points,DNF,Outside Points,0.0078483753269658393,0.29387500324625404,0.69827662142677949
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,tsunoda,Yuki Tsunoda,rb,14,Outside Points,Classified,Outside Points,0.01380681716041952,0.34334208250023401,0.64285110033934634
+2024_23,2024,23,Qatar Grand Prix,2024-12-01,losail,zhou,Guanyu Zhou,sauber,12,Points,Classified,Outside Points,0.0043129454428654772,0.17962736661956846,0.81605968793756711
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,albon,Alexander Albon,williams,18,Outside Points,Classified,Outside Points,0.0038891992378219959,0.19151047911926114,0.80460032164291817
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,alonso,Fernando Alonso,aston_martin,8,Points,Classified,Points,0.045098691116000823,0.5696443369190658,0.38525697196493364
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,bottas,Valtteri Bottas,sauber,9,Outside Points,DNF,Outside Points,0.024383103418556117,0.39877878645033787,0.57683811013110597
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,colapinto,Franco Colapinto,williams,20,Outside Points,DNF,Outside Points,0.0018813059584803775,0.14375560530601478,0.85436308873550493
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,doohan,Jack Doohan,alpine,17,Outside Points,Classified,Outside Points,0.011495490739970551,0.27880297597335457,0.70970153328667462
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,gasly,Pierre Gasly,alpine,5,Points,Classified,Points,0.11878301612871606,0.60159816518015563,0.27961881869112853
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,hamilton,Lewis Hamilton,mercedes,16,Points,Classified,Points,0.093206093792460767,0.49330111844005409,0.41349278776748499
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,hulkenberg,Nico Hülkenberg,haas,7,Points,Classified,Points,0.13100553140058938,0.55907186310303725,0.30992260549637346
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,kevin_magnussen,Kevin Magnussen,haas,14,Outside Points,Classified,Outside Points,0.012398772019377946,0.32219826026732235,0.66540296771329965
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,lawson,Liam Lawson,rb,12,Outside Points,Classified,Outside Points,0.013515355125589122,0.3509902893465911,0.6354943555278193
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,leclerc,Charles Leclerc,ferrari,19,Top 3,Classified,Points,0.18982386701515483,0.52445219402431076,0.28572393896053477
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,max_verstappen,Max Verstappen,red_bull,4,Points,Classified,Top 3,0.42620044532482604,0.38671966641283867,0.18707988826233504
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.79244344386407595,0.10390224281600702,0.10365431331991752
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,perez,Sergio Pérez,red_bull,10,Outside Points,DNF,Points,0.095774792099318731,0.613421933019479,0.290803274881202
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,piastri,Oscar Piastri,mclaren,2,Points,Classified,Top 3,0.60583536822397566,0.2529716127028131,0.14119301907321122
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,russell,George Russell,mercedes,6,Points,Classified,Points,0.23938629728177652,0.55322355179914018,0.20739015091908367
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,sainz,Carlos Sainz,ferrari,3,Top 3,Classified,Top 3,0.59716530336721141,0.27109150346641114,0.13174319316637756
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,stroll,Lance Stroll,aston_martin,13,Outside Points,Classified,Outside Points,0.011602744305381173,0.36666277044531304,0.62173448524930519
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,tsunoda,Yuki Tsunoda,rb,11,Outside Points,Classified,Points,0.028070343576212343,0.49960663948291217,0.47232301694087547
+2024_24,2024,24,Abu Dhabi Grand Prix,2024-12-08,yas_marina,zhou,Guanyu Zhou,sauber,15,Outside Points,Classified,Outside Points,0.002058632896623773,0.1448970519862729,0.85304431511710332
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,albon,Alexander Albon,williams,6,Points,Classified,Points,0.050691057341129886,0.5343777834545298,0.41493115920434037
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,alonso,Fernando Alonso,aston_martin,12,Outside Points,DNF,Outside Points,0.016864978751188139,0.46874023897176931,0.51439478227704283
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,antonelli,Andrea Kimi Antonelli,mercedes,16,Points,Classified,Outside Points,0.020027108211472286,0.3257412439985245,0.65423164779000342
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,bearman,Oliver Bearman,haas,20,Outside Points,Classified,Outside Points,0.0057532653548685239,0.23978206697162505,0.7544646676735064
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,bortoleto,Gabriel Bortoleto,sauber,15,Outside Points,DNF,Outside Points,0.0090154103881927832,0.28281566122191792,0.70816892838988987
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,doohan,Jack Doohan,alpine,14,Outside Points,DNF,Outside Points,0.012805056274902592,0.30955367980520704,0.67764126391989021
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,gasly,Pierre Gasly,alpine,9,Outside Points,Classified,Points,0.056459373349113919,0.60816785480883384,0.33537277184205228
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,hadjar,Isack Hadjar,rb,11,Outside Points,DNF,Outside Points,0.02927188342134901,0.48351141854514523,0.48721669803350581
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,hamilton,Lewis Hamilton,ferrari,8,Points,Classified,Points,0.099460907384537584,0.60810291946663075,0.2924361731488318
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,hulkenberg,Nico Hülkenberg,sauber,17,Points,Classified,Outside Points,0.0070131532639911868,0.2820603776709133,0.71092646906509571
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,lawson,Liam Lawson,red_bull,18,Outside Points,DNF,Outside Points,0.0089002199773112762,0.24181030232515419,0.74928947769753473
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,leclerc,Charles Leclerc,ferrari,7,Points,Classified,Points,0.15369566960085301,0.60320828038475849,0.24309605001438864
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,max_verstappen,Max Verstappen,red_bull,3,Top 3,Classified,Top 3,0.51667770202404684,0.3421786087887253,0.14114368918722756
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.72106286597414704,0.16801695982788445,0.11092017419796851
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,ocon,Esteban Ocon,haas,19,Outside Points,Classified,Outside Points,0.0022778725281295893,0.20648502116862455,0.79123710630324606
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,piastri,Oscar Piastri,mclaren,2,Points,Classified,Top 3,0.54415493814206461,0.3032125484728283,0.15263251338510736
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,russell,George Russell,mercedes,4,Top 3,Classified,Points,0.33756874454290975,0.49336941744594076,0.16906183801114971
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,sainz,Carlos Sainz,williams,10,Outside Points,DNF,Points,0.081634564273346921,0.53783678693438763,0.38052864879226589
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,stroll,Lance Stroll,aston_martin,13,Points,Classified,Outside Points,0.011352941022049028,0.3697103696342055,0.61893668934374491
+2025_01,2025,1,Australian Grand Prix,2025-03-16,albert_park,tsunoda,Yuki Tsunoda,rb,5,Outside Points,Classified,Points,0.079722318484153093,0.60802113648741529,0.31225654502843236
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,albon,Alexander Albon,williams,10,Points,Classified,Points,0.052549804266891167,0.50803279597117057,0.43941739976193828
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,alonso,Fernando Alonso,aston_martin,13,Outside Points,DNF,Outside Points,0.01568838738814167,0.39681874596769057,0.58749286664416767
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,antonelli,Andrea Kimi Antonelli,mercedes,8,Points,Classified,Points,0.20114410141002437,0.53439626434186149,0.26445963424811419
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,bearman,Oliver Bearman,haas,17,Points,Classified,Outside Points,0.0069992990231857611,0.21014822767296637,0.78285247330384777
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,bortoleto,Gabriel Bortoleto,sauber,19,Outside Points,Classified,Outside Points,0.0055718523353612878,0.19320604178339307,0.80122210588124532
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,doohan,Jack Doohan,alpine,18,Outside Points,Classified,Outside Points,0.0077207743904120748,0.19011073083702715,0.80216849477256058
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,gasly,Pierre Gasly,alpine,16,Outside Points,DSQ,Outside Points,0.014477130210382241,0.28093244351566349,0.70459042627395418
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,hadjar,Isack Hadjar,rb,7,Outside Points,Classified,Points,0.061056685459965794,0.51689318677393492,0.42205012776609913
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,hamilton,Lewis Hamilton,ferrari,5,Outside Points,DSQ,Points,0.17919951904535686,0.54779161520075836,0.27300886575388494
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,hulkenberg,Nico Hülkenberg,sauber,12,Outside Points,Classified,Outside Points,0.019174908989546439,0.42317703226954401,0.55764805874090961
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,lawson,Liam Lawson,red_bull,20,Outside Points,Classified,Outside Points,0.019159357294402709,0.33175350404826076,0.64908713865733592
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,leclerc,Charles Leclerc,ferrari,6,Outside Points,DSQ,Points,0.1904421480318878,0.56578486906968262,0.24377298289842997
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,max_verstappen,Max Verstappen,red_bull,4,Points,Classified,Top 3,0.42799979115691777,0.40577289756809143,0.16622731127499105
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,norris,Lando Norris,mclaren,3,Top 3,Classified,Top 3,0.63468621225416755,0.23244218811741543,0.13287159962841671
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,ocon,Esteban Ocon,haas,11,Points,Classified,Outside Points,0.019428939808872787,0.39065692473912939,0.58991413545199844
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,piastri,Oscar Piastri,mclaren,1,Top 3,Classified,Top 3,0.66515285236842525,0.21752300019186147,0.1173241474397131
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,russell,George Russell,mercedes,2,Top 3,Classified,Top 3,0.69776483086080221,0.17806038204936603,0.12417478708983101
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,sainz,Carlos Sainz,williams,15,Points,Classified,Outside Points,0.020585778408267426,0.35520065990305111,0.62421356168868114
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,stroll,Lance Stroll,aston_martin,14,Points,Classified,Outside Points,0.013120848694649856,0.34081205047216473,0.64606710083318486
+2025_02,2025,2,Chinese Grand Prix,2025-03-23,shanghai,tsunoda,Yuki Tsunoda,rb,9,Outside Points,Classified,Points,0.056308314265955631,0.522543818612343,0.42114786712170188
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,albon,Alexander Albon,williams,9,Points,Classified,Points,0.061622583344928407,0.55085572739956978,0.38752168925550246
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,alonso,Fernando Alonso,aston_martin,12,Outside Points,Classified,Outside Points,0.015300238683088449,0.350255165276456,0.63444459604045489
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,antonelli,Andrea Kimi Antonelli,mercedes,6,Points,Classified,Points,0.20068755711182043,0.56697814090282384,0.23233430198535593
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,bearman,Oliver Bearman,haas,10,Points,Classified,Points,0.038408528735950707,0.51356602146970443,0.448025449794345
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,bortoleto,Gabriel Bortoleto,sauber,17,Outside Points,Classified,Outside Points,0.0022902616447468068,0.13678419121046376,0.86092554714478919
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,doohan,Jack Doohan,alpine,19,Outside Points,Classified,Outside Points,0.00060608819389142306,0.078964720128327268,0.92042919167778137
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,gasly,Pierre Gasly,alpine,11,Outside Points,Classified,Outside Points,0.025312841109306962,0.40362164118469596,0.57106551770599701
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,hadjar,Isack Hadjar,rb,7,Points,Classified,Points,0.046043500531931576,0.48779752541009264,0.46615897405797585
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,hamilton,Lewis Hamilton,ferrari,8,Points,Classified,Points,0.10958676361978247,0.60902150485496176,0.28139173152525587
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,hulkenberg,Nico Hülkenberg,sauber,16,Outside Points,Classified,Outside Points,0.0073505442029128372,0.26173298895945352,0.73091646683763356
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,lawson,Liam Lawson,rb,13,Outside Points,Classified,Outside Points,0.0039956582586097422,0.20294700467778376,0.79305733706360715
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,leclerc,Charles Leclerc,ferrari,4,Points,Classified,Points,0.34065736545508024,0.48974756394537622,0.1695950705995439
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.71349921680867046,0.17035467073052615,0.11614611246080386
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,norris,Lando Norris,mclaren,2,Top 3,Classified,Top 3,0.77439248133396399,0.11803310066800649,0.10757441799802939
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,ocon,Esteban Ocon,haas,18,Outside Points,Classified,Outside Points,0.013859003002583348,0.3249693994994759,0.6611715974979413
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,piastri,Oscar Piastri,mclaren,3,Top 3,Classified,Top 3,0.60745620465791272,0.25364493860604537,0.13889885673604188
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,russell,George Russell,mercedes,5,Points,Classified,Points,0.3409018901996646,0.4563263591443471,0.20277175065598863
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,sainz,Carlos Sainz,williams,15,Outside Points,Classified,Outside Points,0.028732221040624766,0.43022644396594223,0.54104133499343221
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,stroll,Lance Stroll,aston_martin,20,Outside Points,Classified,Outside Points,0.0038025756396957051,0.19503134578714487,0.80116607857315958
+2025_03,2025,3,Japanese Grand Prix,2025-04-06,suzuka,tsunoda,Yuki Tsunoda,red_bull,14,Outside Points,Classified,Outside Points,0.032552813499932165,0.39972494443208151,0.56772224206798638
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,albon,Alexander Albon,williams,15,Outside Points,Classified,Outside Points,0.010968475304961168,0.35132791140818725,0.6377036132868521
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,alonso,Fernando Alonso,aston_martin,13,Outside Points,Classified,Outside Points,0.0094206407169332186,0.31823823289715397,0.67234112638591259
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,antonelli,Andrea Kimi Antonelli,mercedes,5,Outside Points,Classified,Points,0.32912460472228849,0.48671275393611702,0.18416264134159457
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,bearman,Oliver Bearman,haas,20,Points,Classified,Outside Points,0.0023973538182984343,0.19030273010198065,0.80729991607972129
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,bortoleto,Gabriel Bortoleto,sauber,18,Outside Points,Classified,Outside Points,7.7605162089513564e-05,0.086605820207824508,0.91331657463008564
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,doohan,Jack Doohan,alpine,11,Outside Points,Classified,Outside Points,0.013172713575067808,0.29714266305599074,0.68968462336894132
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,gasly,Pierre Gasly,alpine,4,Points,Classified,Points,0.13164577717849404,0.52447650769344145,0.34387771512806514
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,hadjar,Isack Hadjar,rb,12,Outside Points,Classified,Outside Points,0.013326518610770277,0.36074369749054336,0.62592978389868659
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,hamilton,Lewis Hamilton,ferrari,9,Points,Classified,Points,0.091501839603599394,0.62658917111702372,0.28190898927937663
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,hulkenberg,Nico Hülkenberg,sauber,16,Outside Points,DSQ,Outside Points,0.0014517819911749835,0.18032740271538003,0.81822081529344515
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,lawson,Liam Lawson,rb,17,Outside Points,Classified,Outside Points,0.00011957515776171383,0.10148935147249928,0.89839107336973811
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,leclerc,Charles Leclerc,ferrari,2,Points,Classified,Top 3,0.55645214043891,0.30142774511168041,0.14212011444940967
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,max_verstappen,Max Verstappen,red_bull,7,Points,Classified,Points,0.28289526944008664,0.50773514400437769,0.20936958655553595
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,norris,Lando Norris,mclaren,6,Top 3,Classified,Points,0.35475285098993475,0.44459814727159086,0.20064900173847519
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,ocon,Esteban Ocon,haas,14,Points,Classified,Outside Points,0.0089594215125251859,0.30690972459948318,0.68413085388799122
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,piastri,Oscar Piastri,mclaren,1,Top 3,Classified,Top 3,0.79072217457533556,0.12383168655077621,0.085446138873888314
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,russell,George Russell,mercedes,3,Top 3,Classified,Top 3,0.61366564650600919,0.25533868838141993,0.13099566511257085
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,sainz,Carlos Sainz,williams,8,Outside Points,DNF,Points,0.045990679711177485,0.55804116529567693,0.39596815499314553
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,stroll,Lance Stroll,aston_martin,19,Outside Points,Classified,Outside Points,0.0018469702644825841,0.17886214296726755,0.8192908867682499
+2025_04,2025,4,Bahrain Grand Prix,2025-04-13,bahrain,tsunoda,Yuki Tsunoda,red_bull,10,Points,Classified,Points,0.059766936237037237,0.57041303460315229,0.36982002915980994
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,albon,Alexander Albon,williams,11,Points,Classified,Points,0.035006011227710541,0.49106727698599711,0.4739267117862927
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,alonso,Fernando Alonso,aston_martin,13,Outside Points,Classified,Outside Points,0.010861251941865735,0.31163040708568579,0.67750834097244794
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,antonelli,Andrea Kimi Antonelli,mercedes,5,Points,Classified,Points,0.23554624031633778,0.56182329464220659,0.2026304650414556
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,bearman,Oliver Bearman,haas,15,Outside Points,Classified,Outside Points,0.010047132824877982,0.30925692391266507,0.68069594326245708
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,bortoleto,Gabriel Bortoleto,sauber,20,Outside Points,Classified,Outside Points,7.7605162089513564e-05,0.074114496238245453,0.92580789859966528
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,doohan,Jack Doohan,alpine,17,Outside Points,Classified,Outside Points,0.0028344837061383106,0.13986066760591728,0.85730484868794377
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,gasly,Pierre Gasly,alpine,9,Outside Points,DNF,Points,0.03986848216343284,0.53219817369557476,0.42793334414099277
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,hadjar,Isack Hadjar,rb,14,Points,Classified,Outside Points,0.0068450118930537965,0.24520201986638207,0.74795296824056434
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,hamilton,Lewis Hamilton,ferrari,7,Points,Classified,Points,0.10091512141685061,0.63099582802579524,0.26808905055735399
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,hulkenberg,Nico Hülkenberg,sauber,18,Outside Points,Classified,Outside Points,0.0051170854164475791,0.21138276613814783,0.78350014844540494
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,lawson,Liam Lawson,rb,12,Outside Points,Classified,Outside Points,0.0081526233141481445,0.24948913643190174,0.74235824025394981
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,leclerc,Charles Leclerc,ferrari,4,Top 3,Classified,Points,0.37766696258974219,0.44964254119629032,0.17269049621396765
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.68684564285223415,0.18659590447773905,0.12655845267002713
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,norris,Lando Norris,mclaren,10,Points,Classified,Points,0.33408005624985515,0.45513728700829853,0.21078265674184712
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,ocon,Esteban Ocon,haas,19,Outside Points,Classified,Outside Points,0.0061998447234169482,0.26619124215876488,0.72760891311781817
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.78651048467839091,0.12350214393446506,0.089987371387144161
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,russell,George Russell,mercedes,3,Points,Classified,Top 3,0.62171702536808171,0.24129996383474159,0.13698301079717623
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,sainz,Carlos Sainz,williams,6,Points,Classified,Points,0.056826637214208706,0.59133505463228897,0.3518383081535022
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,stroll,Lance Stroll,aston_martin,16,Outside Points,Classified,Outside Points,0.0062202091062278078,0.24540635035168004,0.7483734405420911
+2025_05,2025,5,Saudi Arabian Grand Prix,2025-04-20,jeddah,tsunoda,Yuki Tsunoda,red_bull,8,Outside Points,DNF,Points,0.079011042281678365,0.59747798897938897,0.32351096873893292
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,albon,Alexander Albon,williams,7,Points,Classified,Points,0.043691307663088708,0.60361081880385681,0.35269787353305465
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,alonso,Fernando Alonso,aston_martin,17,Outside Points,Classified,Outside Points,0.0029399606927441231,0.19144938415280358,0.80561065515445218
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,antonelli,Andrea Kimi Antonelli,mercedes,3,Points,Classified,Points,0.41820351101449432,0.43192806572674036,0.14986842325876534
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,bearman,Oliver Bearman,haas,19,Outside Points,DNF,Outside Points,0.0038287291884963955,0.21769271749182983,0.77847855331967308
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,bortoleto,Gabriel Bortoleto,sauber,13,Outside Points,DNF,Outside Points,0.0017102805575031044,0.16565655230535331,0.83263316713714386
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,doohan,Jack Doohan,alpine,14,Outside Points,DNF,Outside Points,0.00084791659024678276,0.1317774999592557,0.86737458345049789
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,gasly,Pierre Gasly,alpine,20,Outside Points,Classified,Outside Points,0.0036494585640116624,0.1851040716439124,0.81124646979207593
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,hadjar,Isack Hadjar,rb,11,Outside Points,Classified,Outside Points,0.014847985706859796,0.41123566963039443,0.57391634466274577
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,hamilton,Lewis Hamilton,ferrari,12,Points,Classified,Points,0.049687495477963264,0.5563863693092691,0.39392613521276748
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,hulkenberg,Nico Hülkenberg,sauber,16,Outside Points,Classified,Outside Points,0.0012164277761799402,0.15732433552715064,0.84145923669666967
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,lawson,Liam Lawson,rb,15,Outside Points,DNF,Outside Points,0.00098544751391775273,0.13793171499431997,0.86108283749176162
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,leclerc,Charles Leclerc,ferrari,8,Points,Classified,Points,0.14028876858963024,0.60154508382644023,0.25816614758392958
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,max_verstappen,Max Verstappen,red_bull,1,Points,Classified,Top 3,0.56592293589690879,0.28734862400821304,0.14672844009487832
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,norris,Lando Norris,mclaren,2,Top 3,Classified,Top 3,0.58200158713099737,0.28063303973884346,0.13736537313015876
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,ocon,Esteban Ocon,haas,9,Outside Points,Classified,Points,0.024240239945842082,0.50912817012447331,0.46663158992968518
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,piastri,Oscar Piastri,mclaren,4,Top 3,Classified,Points,0.37096488211450707,0.44534827815354883,0.18368683973194419
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,russell,George Russell,mercedes,5,Top 3,Classified,Points,0.25961366371882388,0.53902126967206476,0.20136506660911105
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,sainz,Carlos Sainz,williams,6,Points,Classified,Points,0.043203953254069741,0.60753249283068012,0.34926355391525005
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,stroll,Lance Stroll,aston_martin,18,Outside Points,Classified,Outside Points,0.0025494012656281529,0.19061264599102443,0.80683795274334702
+2025_06,2025,6,Miami Grand Prix,2025-05-04,miami,tsunoda,Yuki Tsunoda,red_bull,10,Points,Classified,Points,0.056437636217525691,0.58486268560584476,0.35869967817662923
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,albon,Alexander Albon,williams,7,Points,Classified,Points,0.056435325104965746,0.60969670798661935,0.33386796690841536
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,alonso,Fernando Alonso,aston_martin,5,Outside Points,Classified,Points,0.04444332025561868,0.49472211834240454,0.46083456140197609
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,antonelli,Andrea Kimi Antonelli,mercedes,13,Outside Points,DNF,Points,0.092433586598991646,0.53881813509161958,0.36874827830938939
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,bearman,Oliver Bearman,haas,19,Outside Points,Classified,Outside Points,0.0013226815158344251,0.18794598065218565,0.81073133783197959
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,bortoleto,Gabriel Bortoleto,sauber,14,Outside Points,Classified,Outside Points,0.00025259418584748538,0.091337433314760214,0.90840997249939281
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,colapinto,Franco Colapinto,alpine,16,Outside Points,Classified,Outside Points,0.00044162625773477864,0.11628935186142772,0.88326902188083734
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,gasly,Pierre Gasly,alpine,10,Outside Points,Classified,Outside Points,0.023323383336882501,0.43293847272342822,0.54373814393968967
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,hadjar,Isack Hadjar,rb,9,Points,Classified,Points,0.034955907861188705,0.48452994925937376,0.48051414287943744
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,hamilton,Lewis Hamilton,ferrari,12,Points,Classified,Points,0.056141526108031685,0.56705214933897086,0.37680632455299717
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,hulkenberg,Nico Hülkenberg,sauber,17,Outside Points,Classified,Outside Points,0.00050981363966785028,0.086741332327500989,0.91274885403283168
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,lawson,Liam Lawson,rb,15,Outside Points,Classified,Outside Points,0.000370402431517278,0.12038240335887844,0.87924719420960373
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,leclerc,Charles Leclerc,ferrari,11,Points,Classified,Points,0.12100162277920705,0.59318677173247136,0.28581160548832168
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.68469159944115787,0.18670235789910516,0.12860604265973677
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,norris,Lando Norris,mclaren,4,Top 3,Classified,Top 3,0.4354896313624439,0.37254712280531221,0.1919632458322435
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,ocon,Esteban Ocon,haas,18,Outside Points,DNF,Outside Points,0.0032910172198401732,0.23376880683081602,0.76294017594934316
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,piastri,Oscar Piastri,mclaren,1,Top 3,Classified,Top 3,0.83550974405174028,0.086570670641630154,0.077919585306630651
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,russell,George Russell,mercedes,3,Points,Classified,Top 3,0.59718408425147596,0.2612787770868969,0.14153713866162668
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,sainz,Carlos Sainz,williams,6,Points,Classified,Points,0.07604654931108229,0.61736463798438745,0.30658881270453064
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,stroll,Lance Stroll,aston_martin,8,Outside Points,Classified,Outside Points,0.025724517681501021,0.45202674012660798,0.52224874219189166
+2025_07,2025,7,Emilia Romagna Grand Prix,2025-05-18,imola,tsunoda,Yuki Tsunoda,red_bull,20,Points,Classified,Outside Points,0.026978597745198455,0.39738096249004912,0.57564043976475243
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,albon,Alexander Albon,williams,10,Points,Classified,Points,0.045388602507649513,0.6038624985672828,0.35074889892506822
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,alonso,Fernando Alonso,aston_martin,6,Outside Points,DNF,Points,0.031754939327320736,0.51803394927263258,0.45021111140004622
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,antonelli,Andrea Kimi Antonelli,mercedes,15,Outside Points,Classified,Points,0.077098142835382022,0.47775142536393583,0.44515043180068131
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,bearman,Oliver Bearman,haas,20,Outside Points,Classified,Outside Points,0.00082657186179793229,0.16638040529919162,0.83279302283901002
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,bortoleto,Gabriel Bortoleto,sauber,16,Outside Points,Classified,Outside Points,0,0.068112269083289989,0.93188773091670996
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,colapinto,Franco Colapinto,alpine,18,Outside Points,Classified,Outside Points,2.7667989768355794e-05,0.079103486412162874,0.92086884559806836
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,gasly,Pierre Gasly,alpine,17,Outside Points,DNF,Outside Points,0.0014723781132905849,0.16708310171923066,0.83144452016747938
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,hadjar,Isack Hadjar,rb,5,Points,Classified,Points,0.042377432835773367,0.5465031184693977,0.41111944869482892
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,hamilton,Lewis Hamilton,ferrari,7,Points,Classified,Points,0.26292650546130841,0.54782480253137733,0.18924869200731456
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,hulkenberg,Nico Hülkenberg,sauber,13,Outside Points,Classified,Outside Points,0.00088238609025725651,0.17018930363118825,0.8289283102785554
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,lawson,Liam Lawson,rb,9,Points,Classified,Outside Points,0.021096671264456471,0.40685093691293667,0.57205239182260659
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,leclerc,Charles Leclerc,ferrari,2,Top 3,Classified,Top 3,0.61833906408655248,0.2456585993275596,0.1360023365858879
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,max_verstappen,Max Verstappen,red_bull,4,Points,Classified,Points,0.35495670641193322,0.46433379547640391,0.18070949811166265
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.79111586445219673,0.10423430741045699,0.10464982813734647
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,ocon,Esteban Ocon,haas,8,Points,Classified,Outside Points,0.026358509813247975,0.48239766505321574,0.49124382513353632
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,piastri,Oscar Piastri,mclaren,3,Top 3,Classified,Top 3,0.58728408448475089,0.27815306849872018,0.13456284701652924
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,russell,George Russell,mercedes,14,Outside Points,Classified,Points,0.14095131472779149,0.56056141701196049,0.29848726826024735
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,sainz,Carlos Sainz,williams,11,Points,Classified,Points,0.034002570901004579,0.57763339368655064,0.38836403541244485
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,stroll,Lance Stroll,aston_martin,19,Outside Points,Classified,Outside Points,0.0012866470111824969,0.15699295519004705,0.84172039779877073
+2025_08,2025,8,Monaco Grand Prix,2025-05-25,monaco,tsunoda,Yuki Tsunoda,red_bull,12,Outside Points,Classified,Points,0.031476565401086072,0.50789269448752039,0.46063074011139321
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,albon,Alexander Albon,williams,11,Outside Points,DNF,Points,0.037217687239942371,0.57551021279876724,0.38727209996129075
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,alonso,Fernando Alonso,aston_martin,10,Points,Classified,Outside Points,0.01868449832233968,0.43128265604275912,0.55003284563490107
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,antonelli,Andrea Kimi Antonelli,mercedes,6,Outside Points,DNF,Points,0.10767725579387992,0.64229497390077372,0.2500277703053464
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,bearman,Oliver Bearman,haas,14,Outside Points,Classified,Outside Points,0.003155299534912811,0.21787915331934585,0.77896554714574107
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,bortoleto,Gabriel Bortoleto,sauber,12,Outside Points,Classified,Outside Points,0.0038375039738016902,0.18383654433170943,0.8123259516944894
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,colapinto,Franco Colapinto,alpine,18,Outside Points,Classified,Outside Points,9.2847932793697089e-05,0.072378903488209509,0.92752824857899685
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,gasly,Pierre Gasly,alpine,8,Points,Classified,Outside Points,0.025860043225397519,0.45967219259210507,0.51446776418249796
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,hadjar,Isack Hadjar,rb,9,Points,Classified,Points,0.041540007747705394,0.53256366591890714,0.42589632633338809
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,hamilton,Lewis Hamilton,ferrari,5,Points,Classified,Points,0.21805599332004369,0.5799472886779391,0.20199671800201721
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,hulkenberg,Nico Hülkenberg,sauber,15,Points,Classified,Outside Points,0.00053367825928500459,0.10746964271756446,0.89199667902315083
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,lawson,Liam Lawson,rb,13,Outside Points,Classified,Outside Points,0.0099785236431642003,0.31464663690514949,0.67537483945168608
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,leclerc,Charles Leclerc,ferrari,7,Top 3,Classified,Points,0.20882962129892291,0.57102635549063974,0.22014402321043769
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,max_verstappen,Max Verstappen,red_bull,3,Points,Classified,Top 3,0.57536067056691498,0.28150972710983563,0.14312960232324898
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,norris,Lando Norris,mclaren,2,Top 3,Classified,Top 3,0.69716623604697048,0.18000997279532316,0.12282379115770631
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,ocon,Esteban Ocon,haas,16,Outside Points,Classified,Outside Points,0.0044050255262170707,0.25512117563142661,0.74047379884235609
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,piastri,Oscar Piastri,mclaren,1,Top 3,Classified,Top 3,0.84139464035203215,0.08010695025071371,0.07849840939725504
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,russell,George Russell,mercedes,4,Points,Classified,Points,0.38467757946029402,0.44576121448562106,0.1695612060540844
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,sainz,Carlos Sainz,williams,17,Outside Points,Classified,Outside Points,0.017118423070362938,0.34397376637897453,0.63890781055066237
+2025_09,2025,9,Spanish Grand Prix,2025-06-01,catalunya,tsunoda,Yuki Tsunoda,red_bull,19,Outside Points,Classified,Outside Points,0.027939854964861913,0.35818885618140683,0.61387128885373043
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,albon,Alexander Albon,williams,9,Outside Points,DNF,Points,0.04231433126979206,0.61457264702043446,0.34311302170977348
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,alonso,Fernando Alonso,aston_martin,6,Points,Classified,Points,0.036596702722443572,0.51850090445079811,0.44490239282675803
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,antonelli,Andrea Kimi Antonelli,mercedes,4,Top 3,Classified,Points,0.26144042004601142,0.56611701342935961,0.17244256652462883
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,bearman,Oliver Bearman,haas,13,Outside Points,Classified,Outside Points,0.0049624241093483212,0.23834830573160623,0.75668927015904486
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,bortoleto,Gabriel Bortoleto,sauber,15,Outside Points,Classified,Outside Points,0.0023121092709944254,0.17647724737226386,0.82121064335674177
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,colapinto,Franco Colapinto,alpine,10,Outside Points,Classified,Outside Points,0.012032367743599701,0.33390824194125857,0.65405939031514138
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,gasly,Pierre Gasly,alpine,20,Outside Points,Classified,Outside Points,0.0021156298429289722,0.17491238810601004,0.82297198205106137
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,hadjar,Isack Hadjar,rb,12,Outside Points,Classified,Points,0.029990956882074635,0.50604586862486867,0.46396317449305707
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,hamilton,Lewis Hamilton,ferrari,5,Points,Classified,Points,0.19766964957829505,0.60464999891896876,0.19768035150273555
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,hulkenberg,Nico Hülkenberg,sauber,11,Points,Classified,Outside Points,0.014396960316663156,0.37988628845967698,0.60571675122365987
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,lawson,Liam Lawson,rb,19,Outside Points,DNF,Outside Points,0.0025694947763807373,0.19409984773976457,0.8033306574838539
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,leclerc,Charles Leclerc,ferrari,8,Points,Classified,Points,0.18923667672178937,0.58673183523380368,0.22403148804440684
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.61444742725033008,0.25098296101903461,0.13456961173063503
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,norris,Lando Norris,mclaren,7,Outside Points,Classified,Points,0.28866482019693462,0.49786568599824677,0.21346949380481889
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,ocon,Esteban Ocon,haas,14,Points,Classified,Outside Points,0.0037858911689541341,0.26286046346310998,0.73335364536793624
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,piastri,Oscar Piastri,mclaren,3,Points,Classified,Top 3,0.58916768852042523,0.27466282797106401,0.1361694835085111
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,russell,George Russell,mercedes,1,Top 3,Classified,Top 3,0.63779450596748677,0.22690602921486103,0.13529946481765234
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,sainz,Carlos Sainz,williams,16,Points,Classified,Outside Points,0.016206222839332426,0.34470902526257857,0.63908475189808844
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,stroll,Lance Stroll,aston_martin,17,Outside Points,Classified,Outside Points,0.0014604681276937353,0.18212825964674542,0.81641127222556109
+2025_10,2025,10,Canadian Grand Prix,2025-06-15,villeneuve,tsunoda,Yuki Tsunoda,red_bull,18,Outside Points,Classified,Outside Points,0.029152922748584036,0.43287342739650314,0.53797364985491336
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,albon,Alexander Albon,williams,12,Outside Points,DNF,Points,0.028966742422921313,0.52363014362900961,0.44740311394806903
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,alonso,Fernando Alonso,aston_martin,11,Points,Classified,Outside Points,0.021449830309934904,0.44041683374138829,0.53813333594867674
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,antonelli,Andrea Kimi Antonelli,mercedes,9,Outside Points,DNF,Points,0.086168112847728101,0.63114341930752782,0.28268846784474316
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,bearman,Oliver Bearman,haas,15,Outside Points,Classified,Outside Points,0.0044970954562022821,0.22613253471575878,0.76937036982803819
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,bortoleto,Gabriel Bortoleto,sauber,8,Points,Classified,Outside Points,0.029386735970676051,0.43371263349819072,0.53690063053113302
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,colapinto,Franco Colapinto,alpine,14,Outside Points,Classified,Outside Points,0.00091673766010445194,0.13658191021297597,0.86250135212692003
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,gasly,Pierre Gasly,alpine,10,Outside Points,Classified,Outside Points,0.015932800874558728,0.39820520358697314,0.58586199553846852
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,hadjar,Isack Hadjar,rb,13,Outside Points,Classified,Outside Points,0.017460657115193283,0.37495522364410377,0.60758411924070255
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,hamilton,Lewis Hamilton,ferrari,4,Points,Classified,Points,0.30898676185509261,0.53514019802608148,0.15587304011882558
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,hulkenberg,Nico Hülkenberg,sauber,20,Points,Classified,Outside Points,0.0025618433007481901,0.2074856817186643,0.78995247498058829
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,lawson,Liam Lawson,rb,6,Points,Classified,Points,0.046424481114874697,0.53322081435172297,0.42035470453340162
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,leclerc,Charles Leclerc,ferrari,2,Top 3,Classified,Top 3,0.54084211093782075,0.32159924786008903,0.13755864120208985
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,max_verstappen,Max Verstappen,red_bull,7,Outside Points,DNF,Points,0.21923029827930079,0.55766840747474755,0.22310129424595218
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.7862200745393001,0.10860489977712168,0.1051750256835787
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,ocon,Esteban Ocon,haas,17,Points,Classified,Outside Points,0.0041714959045397668,0.25279261225695471,0.74303589183850571
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,piastri,Oscar Piastri,mclaren,3,Top 3,Classified,Top 3,0.56406522444041229,0.30171960962830263,0.13421516593128544
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,russell,George Russell,mercedes,5,Points,Classified,Points,0.27927613684865049,0.50874499019774577,0.21197887295360374
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,sainz,Carlos Sainz,williams,19,Outside Points,DNS,Outside Points,0.0089079755648112605,0.30574543700372064,0.68534658743146748
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,stroll,Lance Stroll,aston_martin,16,Outside Points,Classified,Outside Points,0.0026175441583516797,0.21591249952130845,0.78146995632034044
+2025_11,2025,11,Austrian Grand Prix,2025-06-29,red_bull_ring,tsunoda,Yuki Tsunoda,red_bull,18,Outside Points,Classified,Outside Points,0.025924525500125722,0.33500454022021919,0.63907093427965467
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,albon,Alexander Albon,williams,13,Points,Classified,Outside Points,0.017760496566260699,0.40134538114769325,0.58089412228604598
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,alonso,Fernando Alonso,aston_martin,7,Points,Classified,Points,0.044958074062561026,0.58115413838556274,0.37388778755187629
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,antonelli,Andrea Kimi Antonelli,mercedes,10,Outside Points,DNF,Points,0.12251849400308226,0.61167124566677078,0.26581026033014676
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,bearman,Oliver Bearman,haas,18,Outside Points,Classified,Outside Points,0.018704647265729128,0.30504066934179469,0.6762546833924753
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,bortoleto,Gabriel Bortoleto,sauber,16,Outside Points,DNF,Outside Points,0.00537652395070646,0.22548352934155008,0.76913994670774344
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,colapinto,Franco Colapinto,alpine,20,Outside Points,DNS,Outside Points,0.00024493020273714026,0.10069325737112214,0.89906181242614014
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,gasly,Pierre Gasly,alpine,8,Points,Classified,Outside Points,0.019510107963628787,0.41143403010303131,0.56905586193334012
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,hadjar,Isack Hadjar,rb,12,Outside Points,DNF,Outside Points,0.020564259665079899,0.39825428444021382,0.58118145589470593
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,hamilton,Lewis Hamilton,ferrari,5,Points,Classified,Points,0.30545437647351903,0.51052646942686386,0.18401915409961758
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,hulkenberg,Nico Hülkenberg,sauber,19,Top 3,Classified,Outside Points,0.0071670598921771082,0.25318906484680231,0.73964387526102082
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,lawson,Liam Lawson,rb,15,Outside Points,DNF,Outside Points,0.011277591061939651,0.30381310198242845,0.68490930695563179
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,leclerc,Charles Leclerc,ferrari,6,Outside Points,Classified,Points,0.30560788004319794,0.49116436914285044,0.20322775081395189
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,max_verstappen,Max Verstappen,red_bull,1,Points,Classified,Top 3,0.6626054775344099,0.21136987326485415,0.12602464920073628
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,norris,Lando Norris,mclaren,3,Top 3,Classified,Top 3,0.66668638411948067,0.20005422297478567,0.1332593929057333
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,ocon,Esteban Ocon,haas,14,Outside Points,Classified,Outside Points,0.010467567441243634,0.32174765632517316,0.66778477623358246
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.76047886328958991,0.13282361281351329,0.10669752389689729
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,russell,George Russell,mercedes,4,Points,Classified,Points,0.39900680195294641,0.43141624522959154,0.16957695281746171
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,sainz,Carlos Sainz,williams,9,Outside Points,Classified,Points,0.030774215771633206,0.50531937723653497,0.46390640699183194
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,stroll,Lance Stroll,aston_martin,17,Points,Classified,Outside Points,0.0054951154625282198,0.22907185005424929,0.76543303448322253
+2025_12,2025,12,British Grand Prix,2025-07-06,silverstone,tsunoda,Yuki Tsunoda,red_bull,11,Outside Points,Classified,Outside Points,0.040580185923968504,0.45999692785169033,0.49942288622434139
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,albon,Alexander Albon,williams,5,Points,Classified,Points,0.092774407015642157,0.58833325781012702,0.31889233517423166
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,alonso,Fernando Alonso,aston_martin,20,Outside Points,Classified,Outside Points,0.012713448257710753,0.3018930593438649,0.68539349239842495
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,antonelli,Andrea Kimi Antonelli,mercedes,19,Outside Points,Classified,Points,0.064535082983350367,0.49504617160413916,0.44041874541251036
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,bearman,Oliver Bearman,haas,12,Outside Points,Classified,Outside Points,0.013899129127926275,0.33180375331887307,0.65429711755320041
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,bortoleto,Gabriel Bortoleto,sauber,10,Points,Classified,Points,0.032395584572367582,0.48539068646852884,0.48221372895910342
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,colapinto,Franco Colapinto,alpine,15,Outside Points,Classified,Outside Points,0.0037507547670766282,0.16828551688809526,0.82796372834482757
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,gasly,Pierre Gasly,alpine,13,Points,Classified,Outside Points,0.011912431944332216,0.34539692903362462,0.64269063902204293
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,hadjar,Isack Hadjar,rb,8,Outside Points,Classified,Points,0.052304897004836384,0.55592551021844017,0.39176959277672369
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,hamilton,Lewis Hamilton,ferrari,18,Points,Classified,Points,0.13366979997633727,0.55208035900292007,0.3142498410207426
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,hulkenberg,Nico Hülkenberg,sauber,14,Outside Points,Classified,Outside Points,0.017542857740712469,0.35884977956307479,0.62360736269621253
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,lawson,Liam Lawson,rb,9,Points,Classified,Points,0.038922150851080674,0.49106805625294725,0.47000979289597217
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,leclerc,Charles Leclerc,ferrari,3,Top 3,Classified,Top 3,0.5716835631169116,0.29122201570461104,0.13709442117847706
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,max_verstappen,Max Verstappen,red_bull,4,Points,Classified,Points,0.36060862707600227,0.45810279076128957,0.18128858216270874
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.80605105409722366,0.090686660371344041,0.10326228553143264
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,ocon,Esteban Ocon,haas,11,Outside Points,Classified,Outside Points,0.02265452019259067,0.43737168962475487,0.53997379018265468
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.81048905997963727,0.099781550094886928,0.089729389925476258
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,russell,George Russell,mercedes,6,Points,Classified,Points,0.225726529730849,0.55717254930101701,0.2171009209681346
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,sainz,Carlos Sainz,williams,17,Outside Points,Classified,Outside Points,0.0085013632239868825,0.28447299698661793,0.70702563978939503
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,stroll,Lance Stroll,aston_martin,16,Outside Points,Classified,Outside Points,0.0069342037384374422,0.25657327239892663,0.73649252386263586
+2025_13,2025,13,Belgian Grand Prix,2025-07-27,spa,tsunoda,Yuki Tsunoda,red_bull,7,Outside Points,Classified,Points,0.076195942988887405,0.57081411668269333,0.35298994032841974
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,albon,Alexander Albon,williams,19,Outside Points,Classified,Outside Points,0.01716653938879515,0.34331147020278541,0.63952199040841951
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,alonso,Fernando Alonso,aston_martin,5,Points,Classified,Points,0.097263552044832405,0.5727570579120056,0.32997939004316229
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,antonelli,Andrea Kimi Antonelli,mercedes,15,Points,Classified,Points,0.071313074856530642,0.50455483327976913,0.42413209186369999
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,bearman,Oliver Bearman,haas,11,Outside Points,DNF,Outside Points,0.018319112464940862,0.38351782134082169,0.5981630661942372
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,bortoleto,Gabriel Bortoleto,sauber,7,Points,Classified,Points,0.04868044595752169,0.56439332145812593,0.38692623258435233
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,colapinto,Franco Colapinto,alpine,14,Outside Points,Classified,Outside Points,0.0046453888493314154,0.19506554251928737,0.80028906863138127
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,gasly,Pierre Gasly,alpine,16,Outside Points,Classified,Outside Points,0.0093131796994695894,0.28615665724061445,0.70453016305991578
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,hadjar,Isack Hadjar,rb,10,Outside Points,Classified,Points,0.033360498094663515,0.5208306395313701,0.4458088623739665
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,hamilton,Lewis Hamilton,ferrari,12,Outside Points,Classified,Points,0.11875453477896172,0.60068239753387087,0.28056306768716732
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,hulkenberg,Nico Hülkenberg,sauber,18,Outside Points,Classified,Outside Points,0.016299332511292824,0.3192185310157209,0.66448213647298571
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,lawson,Liam Lawson,rb,9,Points,Classified,Points,0.030613397964240993,0.49981234688470316,0.46957425515105622
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,leclerc,Charles Leclerc,ferrari,1,Points,Classified,Top 3,0.63954405473647347,0.22895501964208978,0.13150092562143664
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,max_verstappen,Max Verstappen,red_bull,8,Points,Classified,Points,0.17908593356166083,0.5735030467983786,0.24741101963996126
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,norris,Lando Norris,mclaren,3,Top 3,Classified,Top 3,0.71175648597106345,0.17070344698190962,0.11754006704702634
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,ocon,Esteban Ocon,haas,17,Outside Points,Classified,Outside Points,0.0063450538441433982,0.25388373972385969,0.73977120643199679
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,piastri,Oscar Piastri,mclaren,2,Top 3,Classified,Top 3,0.81633496671686712,0.098181560209846488,0.0854834730732872
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,russell,George Russell,mercedes,4,Top 3,Classified,Points,0.38166596367029365,0.4420357028340684,0.17629833349563787
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,sainz,Carlos Sainz,williams,13,Outside Points,Classified,Outside Points,0.012818176780622047,0.33480596974743743,0.65237585347193994
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,stroll,Lance Stroll,aston_martin,6,Points,Classified,Points,0.073861315662387891,0.51668653183494451,0.40945215250266798
+2025_14,2025,14,Hungarian Grand Prix,2025-08-03,hungaroring,tsunoda,Yuki Tsunoda,red_bull,20,Outside Points,Classified,Outside Points,0.028702635007318275,0.36649296908830581,0.60480439590437551
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,albon,Alexander Albon,williams,15,Points,Classified,Outside Points,0.015670130927210892,0.37011944705339234,0.61421042201939635
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,alonso,Fernando Alonso,aston_martin,10,Points,Classified,Points,0.0426433140552731,0.5922544223998425,0.3651022635448844
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,antonelli,Andrea Kimi Antonelli,mercedes,11,Outside Points,Classified,Points,0.069263645658456149,0.61437498122447132,0.31636137311707191
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,bearman,Oliver Bearman,haas,20,Points,Classified,Outside Points,0.0010648652747287945,0.16687661143549934,0.83205852328977126
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,bortoleto,Gabriel Bortoleto,sauber,13,Outside Points,Classified,Outside Points,0.01385216587596738,0.3574046954731529,0.62874313865087961
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,colapinto,Franco Colapinto,alpine,16,Outside Points,Classified,Outside Points,0.0014190219940556966,0.14553865173298713,0.85304232627295662
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,gasly,Pierre Gasly,alpine,14,Outside Points,Classified,Outside Points,0.0087962974462594753,0.27798359522681804,0.7132201073269222
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,hadjar,Isack Hadjar,rb,4,Top 3,Classified,Points,0.12715902110555907,0.57517774532124977,0.29766323357319124
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,hamilton,Lewis Hamilton,ferrari,7,Outside Points,DNF,Points,0.13988349139465167,0.62960094977377667,0.23051555883157163
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,hulkenberg,Nico Hülkenberg,sauber,17,Outside Points,Classified,Outside Points,0.0075627807273748512,0.25529167991157509,0.73714553936105032
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,lawson,Liam Lawson,rb,8,Outside Points,Classified,Points,0.035457111195915408,0.51752098566840887,0.44702190313567591
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,leclerc,Charles Leclerc,ferrari,6,Outside Points,DNF,Points,0.2395968050449484,0.55960310004038927,0.20080009491466233
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,max_verstappen,Max Verstappen,red_bull,3,Top 3,Classified,Top 3,0.50908330085363507,0.33912601248562685,0.15179068666073803
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,norris,Lando Norris,mclaren,2,Outside Points,Classified,Top 3,0.79189069461601136,0.10264862699330241,0.10546067839068658
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,ocon,Esteban Ocon,haas,18,Points,Classified,Outside Points,0.0021200088453874589,0.19997250334647693,0.79790748780813558
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,piastri,Oscar Piastri,mclaren,1,Top 3,Classified,Top 3,0.85304518211010194,0.072485556512106378,0.074469261377793
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,russell,George Russell,mercedes,5,Points,Classified,Points,0.29890081275040342,0.49568876267672829,0.2054104245728684
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,sainz,Carlos Sainz,williams,9,Outside Points,Classified,Points,0.028627195897726186,0.49770414587003936,0.47366865823223436
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,stroll,Lance Stroll,aston_martin,19,Points,Classified,Outside Points,0.0087851748210118971,0.2833268381372705,0.7078879870417174
+2025_15,2025,15,Dutch Grand Prix,2025-08-31,zandvoort,tsunoda,Yuki Tsunoda,red_bull,12,Points,Classified,Outside Points,0.035164601751109505,0.46587741017347617,0.4989579880754143
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,albon,Alexander Albon,williams,14,Points,Classified,Outside Points,0.023510811015467311,0.42108762802741473,0.5554015609571179
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,alonso,Fernando Alonso,aston_martin,8,Outside Points,DNF,Points,0.059033005489354202,0.59716545195232695,0.34380154255831918
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,antonelli,Andrea Kimi Antonelli,mercedes,6,Points,Classified,Points,0.11824495040408557,0.60343375013613598,0.27832129945977852
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,bearman,Oliver Bearman,haas,11,Outside Points,Classified,Outside Points,0.021044841101265956,0.4179334227961165,0.56102173610261763
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,bortoleto,Gabriel Bortoleto,sauber,7,Points,Classified,Points,0.051508172553785571,0.54135786775473616,0.40713395969147848
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,colapinto,Franco Colapinto,alpine,17,Outside Points,Classified,Outside Points,0.0033111122084029626,0.16788756475700248,0.8288013230345942
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,gasly,Pierre Gasly,alpine,20,Outside Points,Classified,Outside Points,0.0066407536245405895,0.2496825393539861,0.74367670702147359
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,hadjar,Isack Hadjar,rb,19,Points,Classified,Outside Points,0.015432464280971146,0.3313554819444875,0.65321205377454095
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,hamilton,Lewis Hamilton,ferrari,10,Points,Classified,Points,0.21080727532452262,0.57058899744825498,0.21860372722722279
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,hulkenberg,Nico Hülkenberg,sauber,12,Outside Points,DNS,Outside Points,0.017030039303124338,0.41188749624130189,0.57108246445557387
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,lawson,Liam Lawson,rb,18,Outside Points,Classified,Outside Points,0.014934941711331719,0.30579637090185074,0.67926868738681734
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,leclerc,Charles Leclerc,ferrari,4,Points,Classified,Points,0.37209464723661861,0.45913883772435726,0.1687665150390244
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.65425351528507902,0.21474722767295307,0.13099925704196827
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,norris,Lando Norris,mclaren,2,Top 3,Classified,Top 3,0.78834502914979321,0.1269793816892161,0.08467558916099098
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,ocon,Esteban Ocon,haas,15,Outside Points,Classified,Outside Points,0.0072328514239207191,0.2808435900925878,0.71192355848349109
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,piastri,Oscar Piastri,mclaren,3,Top 3,Classified,Top 3,0.61424998500549255,0.26142645234703521,0.12432356264747274
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,russell,George Russell,mercedes,5,Points,Classified,Points,0.27077736656116058,0.51468446838566917,0.21453816505317078
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,sainz,Carlos Sainz,williams,13,Outside Points,Classified,Outside Points,0.014564663739407872,0.37827885889719326,0.60715647736339862
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,stroll,Lance Stroll,aston_martin,16,Outside Points,Classified,Outside Points,0.012367370583053259,0.31198019186480053,0.67565243755214555
+2025_16,2025,16,Italian Grand Prix,2025-09-07,monza,tsunoda,Yuki Tsunoda,red_bull,9,Outside Points,Classified,Points,0.052867268130395863,0.55269598184769175,0.39443675002191225
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,albon,Alexander Albon,williams,19,Outside Points,Classified,Outside Points,0.034936405470201229,0.38725147928151926,0.57781211524827947
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,alonso,Fernando Alonso,aston_martin,11,Outside Points,Classified,Points,0.041705093197854717,0.53869407958456261,0.41960082721758246
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,antonelli,Andrea Kimi Antonelli,mercedes,4,Points,Classified,Points,0.23981980577622802,0.55230224065222688,0.20787795357154523
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,bearman,Oliver Bearman,haas,15,Outside Points,Classified,Outside Points,0.0086822473512213616,0.26922769389003243,0.72209005875874599
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,bortoleto,Gabriel Bortoleto,sauber,13,Outside Points,Classified,Outside Points,0.013286752032871902,0.34379095890905143,0.6429222890580768
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,colapinto,Franco Colapinto,alpine,16,Outside Points,Classified,Outside Points,0.0033125329028158884,0.16624026932285674,0.83044719777432652
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,gasly,Pierre Gasly,alpine,18,Outside Points,Classified,Outside Points,0.003957347996997658,0.20843081371786709,0.78761183828513526
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,hadjar,Isack Hadjar,rb,8,Points,Classified,Points,0.067319399463455637,0.56964893257259008,0.36303166796395431
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,hamilton,Lewis Hamilton,ferrari,12,Points,Classified,Points,0.10307459449663472,0.58889355284262568,0.30803185266073901
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,hulkenberg,Nico Hülkenberg,sauber,17,Outside Points,Classified,Outside Points,0.0097272501887460377,0.27794638232803559,0.71232636748321776
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,lawson,Liam Lawson,rb,3,Points,Classified,Points,0.2574205392782547,0.49931005192665928,0.24326940879508618
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,leclerc,Charles Leclerc,ferrari,10,Points,Classified,Points,0.22401201207714108,0.54795238682224368,0.22803560110061569
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.71561387540399257,0.15851932958529841,0.12586679501070927
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,norris,Lando Norris,mclaren,7,Points,Classified,Top 3,0.40781186896771698,0.39796950956540755,0.1942186214668756
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,ocon,Esteban Ocon,haas,20,Outside Points,Classified,Outside Points,0.0037130071563415425,0.21328576523542955,0.78300122760822921
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,piastri,Oscar Piastri,mclaren,9,Outside Points,DNF,Points,0.3722577188800279,0.43053465398872215,0.19720762713125051
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,russell,George Russell,mercedes,5,Top 3,Classified,Points,0.31694130200329701,0.47772138230169148,0.20533731569501207
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,sainz,Carlos Sainz,williams,2,Top 3,Classified,Points,0.35079231977635461,0.4362260098877177,0.21298167033592791
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,stroll,Lance Stroll,aston_martin,14,Outside Points,Classified,Outside Points,0.012679377939927423,0.33609122400314723,0.65122939805692492
+2025_17,2025,17,Azerbaijan Grand Prix,2025-09-21,baku,tsunoda,Yuki Tsunoda,red_bull,6,Points,Classified,Points,0.10788498468207443,0.6016373195075343,0.29047769581039168
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,albon,Alexander Albon,williams,20,Outside Points,Classified,Outside Points,0.033551092275025424,0.39504501548040111,0.57140389224457333
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,alonso,Fernando Alonso,aston_martin,10,Points,Classified,Points,0.029194547186845114,0.52903757277951213,0.44176788003364259
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,antonelli,Andrea Kimi Antonelli,mercedes,4,Points,Classified,Points,0.2935920588792969,0.5233145677745028,0.1830933733462006
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,bearman,Oliver Bearman,haas,9,Points,Classified,Outside Points,0.028526013850886951,0.47162082024061275,0.49985316590850037
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,bortoleto,Gabriel Bortoleto,sauber,14,Outside Points,Classified,Outside Points,0.010475562388737883,0.2942136340585158,0.6953108035527461
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,colapinto,Franco Colapinto,alpine,16,Outside Points,Classified,Outside Points,0.00075970360604295933,0.10763808816243006,0.89160220823152769
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,gasly,Pierre Gasly,alpine,19,Outside Points,Classified,Outside Points,0.00065456044103260236,0.11034382834097529,0.8890016112179927
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,hadjar,Isack Hadjar,rb,8,Outside Points,Classified,Points,0.047978086160614219,0.61352721812999833,0.33849469570938767
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,hamilton,Lewis Hamilton,ferrari,6,Points,Classified,Points,0.14896281301730918,0.61751766921629114,0.2335195177663999
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,hulkenberg,Nico Hülkenberg,sauber,11,Outside Points,Classified,Outside Points,0.019116049014794644,0.42366504763350854,0.55721890335169677
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,lawson,Liam Lawson,rb,12,Outside Points,Classified,Outside Points,0.024840568100260321,0.47972005929226902,0.49543937260747045
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,leclerc,Charles Leclerc,ferrari,7,Points,Classified,Points,0.19620596745931038,0.57538537971036119,0.22840865283032916
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.66440519684870414,0.20752142326032744,0.12807337989096848
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,norris,Lando Norris,mclaren,5,Top 3,Classified,Points,0.39685843193875697,0.408910817828533,0.19423075023270978
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,ocon,Esteban Ocon,haas,17,Outside Points,Classified,Outside Points,0.0028709581663912014,0.19143134750781063,0.80569769432579774
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,piastri,Oscar Piastri,mclaren,3,Points,Classified,Top 3,0.57381061226392116,0.29492071650947244,0.13126867122660604
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,russell,George Russell,mercedes,1,Top 3,Classified,Top 3,0.71018195852451671,0.16374620057528219,0.12607184090020057
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,sainz,Carlos Sainz,williams,18,Points,Classified,Outside Points,0.019149850266065888,0.37632755949360197,0.60452259024033195
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,stroll,Lance Stroll,aston_martin,15,Outside Points,Classified,Outside Points,0.0076752171016800782,0.28365410859001799,0.708670674308301
+2025_18,2025,18,Singapore Grand Prix,2025-10-05,marina_bay,tsunoda,Yuki Tsunoda,red_bull,13,Outside Points,Classified,Outside Points,0.043450784295008017,0.46150065917992711,0.49504855652506469
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,albon,Alexander Albon,williams,18,Outside Points,Classified,Outside Points,0.019843344415720023,0.3237953541784212,0.65636130140585858
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,alonso,Fernando Alonso,aston_martin,10,Points,Classified,Points,0.050743578785977281,0.57277353824581168,0.3764828829682112
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,antonelli,Andrea Kimi Antonelli,mercedes,7,Outside Points,Classified,Points,0.1674188875728527,0.60718139261861748,0.2253997198085296
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,bearman,Oliver Bearman,haas,8,Points,Classified,Points,0.04121513180093625,0.48151750472185667,0.47726736347720705
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,bortoleto,Gabriel Bortoleto,sauber,16,Outside Points,Classified,Outside Points,0.0078696769015768487,0.2529426851544907,0.73918763794393239
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,colapinto,Franco Colapinto,alpine,15,Outside Points,Classified,Outside Points,0.0023270764188008121,0.13970775083055234,0.85796517275064688
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,gasly,Pierre Gasly,alpine,14,Outside Points,Classified,Outside Points,0.0033657150514499663,0.18256769556105887,0.81406658938749199
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,hadjar,Isack Hadjar,rb,20,Outside Points,Classified,Outside Points,0.016569685639983157,0.31746391783157563,0.66596639652844092
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,hamilton,Lewis Hamilton,ferrari,5,Points,Classified,Points,0.19863280961351168,0.5901756539377494,0.21119153644873886
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,hulkenberg,Nico Hülkenberg,sauber,11,Points,Classified,Outside Points,0.018948032353708625,0.41727874054484049,0.56377322710145084
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,lawson,Liam Lawson,rb,12,Outside Points,Classified,Outside Points,0.023131311297862986,0.45715762655628056,0.51971106214585638
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,leclerc,Charles Leclerc,ferrari,3,Top 3,Classified,Top 3,0.52097080359153369,0.3302200099119259,0.1488091864965401
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.73364809112713092,0.14575218586445315,0.12059972300841623
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,norris,Lando Norris,mclaren,2,Top 3,Classified,Top 3,0.705286159550647,0.17511199978221209,0.11960184066714091
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,ocon,Esteban Ocon,haas,17,Outside Points,Classified,Outside Points,0.0047544637945371318,0.20990543087320515,0.78534010533225707
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,piastri,Oscar Piastri,mclaren,6,Points,Classified,Points,0.35397668990106262,0.45332779157844455,0.1926955185204938
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,russell,George Russell,mercedes,4,Points,Classified,Top 3,0.43579918761613223,0.38110907424846657,0.183091738135401
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,sainz,Carlos Sainz,williams,9,Outside Points,DNF,Points,0.05765692466388888,0.61114764992561099,0.33119542541050073
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,stroll,Lance Stroll,aston_martin,19,Outside Points,Classified,Outside Points,0.0066868370557175427,0.25325052849511814,0.74006263444916442
+2025_19,2025,19,United States Grand Prix,2025-10-19,americas,tsunoda,Yuki Tsunoda,red_bull,13,Points,Classified,Outside Points,0.04368496668798872,0.460673561569312,0.49564147174269912
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,albon,Alexander Albon,williams,17,Outside Points,Classified,Outside Points,0.025568047086805875,0.33920725355642289,0.63522469935677117
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,alonso,Fernando Alonso,aston_martin,14,Outside Points,DNF,Outside Points,0.011688905191875331,0.35019957363586107,0.63811152117226366
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,antonelli,Andrea Kimi Antonelli,mercedes,6,Points,Classified,Points,0.1497100367002567,0.63111111810712583,0.21917884519261732
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,bearman,Oliver Bearman,haas,9,Points,Classified,Outside Points,0.027309253902820543,0.48337229543227644,0.48931845066490276
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,bortoleto,Gabriel Bortoleto,sauber,16,Points,Classified,Outside Points,0.0017713901958163975,0.18615567946016612,0.81207293034401795
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,colapinto,Franco Colapinto,alpine,20,Outside Points,Classified,Outside Points,0.00027727102161679944,0.07500266867869787,0.92472006029968568
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,gasly,Pierre Gasly,alpine,18,Outside Points,Classified,Outside Points,0.0005390596218648124,0.099865888972380426,0.89959505140575513
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,hadjar,Isack Hadjar,rb,8,Outside Points,Classified,Points,0.038549918160602839,0.59634057008454744,0.36510951175484985
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,hamilton,Lewis Hamilton,ferrari,3,Points,Classified,Top 3,0.50899063802864208,0.34623593673771064,0.14477342523364725
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,hulkenberg,Nico Hülkenberg,sauber,13,Outside Points,DNF,Outside Points,0.010554843804448981,0.37334716163107096,0.61609799456448011
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,lawson,Liam Lawson,rb,15,Outside Points,DNF,Outside Points,0.014485346276465043,0.34416227127363946,0.64135238244989523
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,leclerc,Charles Leclerc,ferrari,2,Top 3,Classified,Top 3,0.56763293845332752,0.28177517702002725,0.15059188452664529
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,max_verstappen,Max Verstappen,red_bull,5,Top 3,Classified,Points,0.38828187528016811,0.42069022051094895,0.19102790420888308
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.79098577739589926,0.10363519654354909,0.10537902606055122
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,ocon,Esteban Ocon,haas,11,Points,Classified,Outside Points,0.012877846210353316,0.3709487492897322,0.61617340449991487
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,piastri,Oscar Piastri,mclaren,7,Points,Classified,Points,0.27282943081564442,0.51326623778056668,0.21390433140378934
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,russell,George Russell,mercedes,4,Points,Classified,Top 3,0.42473063470233924,0.40078535463805287,0.17448401065960784
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,sainz,Carlos Sainz,williams,12,Outside Points,Classified,Points,0.042768662401142292,0.56326964062513452,0.3939616969737233
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,stroll,Lance Stroll,aston_martin,19,Outside Points,Classified,Outside Points,0.0023566140169400669,0.19956197667146033,0.79808140931159999
+2025_20,2025,20,Mexico City Grand Prix,2025-10-26,rodriguez,tsunoda,Yuki Tsunoda,red_bull,10,Outside Points,Classified,Points,0.066964370538219575,0.59520282990063189,0.33783279956114826
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,albon,Alexander Albon,williams,12,Outside Points,Classified,Outside Points,0.031400571766948479,0.46360746717371593,0.50499196105933597
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,alonso,Fernando Alonso,aston_martin,11,Outside Points,Classified,Outside Points,0.027275206341423348,0.48407316349165119,0.48865163016692553
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,antonelli,Andrea Kimi Antonelli,mercedes,2,Top 3,Classified,Top 3,0.56623202682219786,0.2956664064002133,0.1381015667775892
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,bearman,Oliver Bearman,haas,8,Points,Classified,Points,0.068283495313366166,0.55141569388269029,0.38030081080394373
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,bortoleto,Gabriel Bortoleto,sauber,18,Outside Points,DNF,Outside Points,0.0075765550817351009,0.2846165350981591,0.7078069098201063
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,colapinto,Franco Colapinto,alpine,16,Outside Points,Classified,Outside Points,0.0017261483869084214,0.11359216929515142,0.88468168231794087
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,gasly,Pierre Gasly,alpine,9,Points,Classified,Outside Points,0.03928914052098513,0.39257649530389654,0.56813436417511798
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,hadjar,Isack Hadjar,rb,5,Points,Classified,Points,0.092597621574412536,0.5763161192070424,0.33108625921854495
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,hamilton,Lewis Hamilton,ferrari,13,Outside Points,DNF,Points,0.14140361286744541,0.55478878456430425,0.30380760256825046
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,hulkenberg,Nico Hülkenberg,sauber,10,Points,Classified,Points,0.035921231311816022,0.49296297265018935,0.47111579603799486
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,lawson,Liam Lawson,rb,7,Points,Classified,Points,0.058579428646397078,0.55629018865721658,0.38513038269638633
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,leclerc,Charles Leclerc,ferrari,3,Outside Points,DNF,Top 3,0.59029045636040767,0.26752854383558372,0.14218099980400795
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,max_verstappen,Max Verstappen,red_bull,19,Top 3,Classified,Points,0.1781141798268476,0.52597347703923647,0.29591234313391601
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,norris,Lando Norris,mclaren,1,Top 3,Classified,Top 3,0.8188161180189425,0.087707804903752767,0.093476077077304376
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,ocon,Esteban Ocon,haas,20,Outside Points,Classified,Outside Points,0.0058260532826409474,0.23196937213911351,0.76220457457824498
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,piastri,Oscar Piastri,mclaren,4,Points,Classified,Top 3,0.43782719553221427,0.39921734094369576,0.16295546352408991
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,russell,George Russell,mercedes,6,Points,Classified,Points,0.31846974202512546,0.48125881807609994,0.20027143989877513
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,sainz,Carlos Sainz,williams,15,Outside Points,Classified,Outside Points,0.023494067020386381,0.41326820070346398,0.56323773227614926
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,stroll,Lance Stroll,aston_martin,14,Outside Points,Classified,Outside Points,0.0086060520729831745,0.27874455083814254,0.71264939708887365
+2025_21,2025,21,São Paulo Grand Prix,2025-11-09,interlagos,tsunoda,Yuki Tsunoda,red_bull,17,Outside Points,Classified,Outside Points,0.045656126193546677,0.42549469484189423,0.52884917896455907
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,albon,Alexander Albon,williams,16,Outside Points,DNF,Outside Points,0.015863205866363087,0.30529273452604383,0.67884405960759242
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,alonso,Fernando Alonso,aston_martin,7,Outside Points,Classified,Points,0.034209175476223604,0.57172600335569079,0.39406482116808533
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,antonelli,Andrea Kimi Antonelli,mercedes,17,Top 3,Classified,Points,0.13023203372425174,0.5321251273917017,0.337642838884046
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,bearman,Oliver Bearman,haas,14,Points,Classified,Outside Points,0.011991077995968952,0.31302476422975328,0.67498415777427834
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,bortoleto,Gabriel Bortoleto,sauber,18,Outside Points,DNF,Outside Points,0.0011273560441319086,0.15287209720282791,0.84600054675304037
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,colapinto,Franco Colapinto,alpine,15,Outside Points,Classified,Outside Points,0.00031116677212699535,0.10243302262029368,0.89725581060757975
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,gasly,Pierre Gasly,alpine,10,Outside Points,Classified,Outside Points,0.009218525797329959,0.32950534648012675,0.66127612772254296
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,hadjar,Isack Hadjar,rb,8,Points,Classified,Points,0.038432753064369274,0.60789182937635244,0.35367541755927789
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,hamilton,Lewis Hamilton,ferrari,19,Points,Classified,Points,0.095731828304187694,0.49922493722071143,0.40504323447510132
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,hulkenberg,Nico Hülkenberg,sauber,11,Points,Classified,Outside Points,0.0092091704711265224,0.37809318660892727,0.61269764291994633
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,lawson,Liam Lawson,rb,6,Outside Points,Classified,Points,0.055179152681007565,0.60424896172871367,0.34057188559027834
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,leclerc,Charles Leclerc,ferrari,9,Points,Classified,Points,0.1657927972789929,0.58041667640222794,0.25379052631877985
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,max_verstappen,Max Verstappen,red_bull,2,Top 3,Classified,Top 3,0.65327710419421914,0.21743258364119616,0.12929031216458461
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,norris,Lando Norris,mclaren,1,Outside Points,DSQ,Top 3,0.81377822597816418,0.088784069220544506,0.09743770480129138
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,ocon,Esteban Ocon,haas,13,Points,Classified,Outside Points,0.0048936449301473341,0.25901217933603538,0.7360941757338173
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,piastri,Oscar Piastri,mclaren,5,Outside Points,DSQ,Points,0.28287071945251085,0.51564403732179531,0.201485243225694
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,russell,George Russell,mercedes,4,Top 3,Classified,Top 3,0.41672412933084707,0.39881303460447681,0.1844628360646757
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,sainz,Carlos Sainz,williams,3,Points,Classified,Points,0.30882029553829909,0.48933131008917813,0.20184839437252303
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,stroll,Lance Stroll,aston_martin,12,Outside Points,DNF,Outside Points,0.0055275710320833163,0.28684478006457348,0.70762764890334351
+2025_22,2025,22,Las Vegas Grand Prix,2025-11-23,vegas,tsunoda,Yuki Tsunoda,red_bull,20,Outside Points,Classified,Outside Points,0.040363002761100567,0.37381653748508759,0.58582045975381136
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,albon,Alexander Albon,williams,14,Outside Points,Classified,Outside Points,0.022272224521149533,0.37650038596041491,0.60122738951843513
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,alonso,Fernando Alonso,aston_martin,8,Points,Classified,Points,0.03392820823204467,0.56972907678732188,0.39634271498063306
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,antonelli,Andrea Kimi Antonelli,mercedes,5,Points,Classified,Points,0.27369643321408688,0.5231864293095948,0.2031171374763186
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,bearman,Oliver Bearman,haas,13,Outside Points,DNF,Outside Points,0.02123914789699179,0.39495368899790462,0.58380716310510317
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,bortoleto,Gabriel Bortoleto,sauber,19,Outside Points,Classified,Outside Points,0.0055935154960858637,0.2239681406244613,0.77043834387945354
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,colapinto,Franco Colapinto,alpine,20,Outside Points,Classified,Outside Points,0.00038924533428985207,0.10330861163819635,0.8963021430275141
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,gasly,Pierre Gasly,alpine,9,Outside Points,Classified,Outside Points,0.017953784310102309,0.4041180320660302,0.57792818362386766
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,hadjar,Isack Hadjar,rb,6,Outside Points,Classified,Points,0.059512695543820042,0.62793751755995686,0.31254978689622276
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,hamilton,Lewis Hamilton,ferrari,17,Outside Points,Classified,Points,0.095539853229177768,0.52693690754326172,0.37752323922756048
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,hulkenberg,Nico Hülkenberg,sauber,11,Outside Points,DNF,Outside Points,0.022560639756138215,0.4603392834416985,0.51710007680216374
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,lawson,Liam Lawson,rb,12,Points,Classified,Outside Points,0.021759560194190786,0.43578691302100836,0.54245352678480119
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,leclerc,Charles Leclerc,ferrari,10,Points,Classified,Points,0.19115372078094137,0.56924133239558283,0.23960494682347658
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,max_verstappen,Max Verstappen,red_bull,3,Top 3,Classified,Top 3,0.61369423784946064,0.25909514432370362,0.12721061782683563
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,norris,Lando Norris,mclaren,2,Points,Classified,Top 3,0.76819321623242987,0.14312112883855849,0.088685654929012314
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,ocon,Esteban Ocon,haas,16,Outside Points,Classified,Outside Points,0.0089109006113229101,0.27029989021140216,0.72078920917727407
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,piastri,Oscar Piastri,mclaren,1,Top 3,Classified,Top 3,0.74396533583181668,0.14529408707130378,0.11074057709687958
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,russell,George Russell,mercedes,4,Points,Classified,Top 3,0.43791234285161329,0.36687634130695834,0.19521131584142792
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,sainz,Carlos Sainz,williams,7,Top 3,Classified,Points,0.052216770106178624,0.61684108528086279,0.33094214461295857
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,stroll,Lance Stroll,aston_martin,18,Outside Points,Classified,Outside Points,0.0026330005463185827,0.18854852654575566,0.80881847290792552
+2025_23,2025,23,Qatar Grand Prix,2025-11-30,losail,tsunoda,Yuki Tsunoda,red_bull,15,Points,Classified,Outside Points,0.037411928696129054,0.38504889935630116,0.57753917194756943
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,albon,Alexander Albon,williams,17,Outside Points,Classified,Outside Points,0.032316973304279878,0.38025565350274926,0.58742737319297034
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,alonso,Fernando Alonso,aston_martin,6,Points,Classified,Points,0.051008468276365626,0.61277685901426149,0.33621467270937266
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,antonelli,Andrea Kimi Antonelli,mercedes,14,Outside Points,Classified,Points,0.11853926252086579,0.55809982852545903,0.32336090895367497
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,bearman,Oliver Bearman,haas,11,Outside Points,Classified,Points,0.024894515264862981,0.49369621700164984,0.48140926773348719
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,bortoleto,Gabriel Bortoleto,sauber,7,Outside Points,Classified,Outside Points,0.03210603414471442,0.46215411348409235,0.50573985237119345
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,colapinto,Franco Colapinto,alpine,20,Outside Points,Classified,Outside Points,0.00070064848661749695,0.088234496511672755,0.91106485500171042
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,gasly,Pierre Gasly,alpine,19,Outside Points,Classified,Outside Points,0.0033755084736470688,0.19331935930494612,0.80330513222140698
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,hadjar,Isack Hadjar,rb,9,Outside Points,Classified,Points,0.042630210076130284,0.59516512939675803,0.36220466052711137
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,hamilton,Lewis Hamilton,ferrari,16,Points,Classified,Points,0.081304102229363628,0.50465692692652608,0.41403897084411023
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,hulkenberg,Nico Hülkenberg,sauber,18,Points,Classified,Outside Points,0.0086654382409143416,0.27380531828037719,0.71752924347870783
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,lawson,Liam Lawson,rb,13,Outside Points,Classified,Outside Points,0.017935264205082943,0.38351992871121188,0.59854480708370517
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,leclerc,Charles Leclerc,ferrari,5,Points,Classified,Points,0.30857078801082927,0.4958590104507451,0.1955702015384265
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,max_verstappen,Max Verstappen,red_bull,1,Top 3,Classified,Top 3,0.76763033961007576,0.12285989977180233,0.10950976061812158
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,norris,Lando Norris,mclaren,2,Top 3,Classified,Top 3,0.75154329179536428,0.15354023361517061,0.094916474589465699
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,ocon,Esteban Ocon,haas,8,Points,Classified,Points,0.030682649364331235,0.50924584335781853,0.46007150727785001
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,piastri,Oscar Piastri,mclaren,3,Top 3,Classified,Top 3,0.54653983263290584,0.31249283015847701,0.14096733720861684
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,russell,George Russell,mercedes,4,Points,Classified,Top 3,0.43475277123524486,0.38823989098226647,0.17700733778248828
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,sainz,Carlos Sainz,williams,12,Outside Points,Classified,Points,0.045903817435263276,0.54441504564888232,0.40968113691585456
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,stroll,Lance Stroll,aston_martin,15,Points,Classified,Outside Points,0.00777798683884576,0.25064310609387908,0.74157890706727458
+2025_24,2025,24,Abu Dhabi Grand Prix,2025-12-07,yas_marina,tsunoda,Yuki Tsunoda,red_bull,10,Outside Points,Classified,Points,0.082537162069096434,0.5836063773325828,0.33385646059832069

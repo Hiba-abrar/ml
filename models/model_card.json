@@ -1,0 +1,63 @@
+{
+  "model": "RandomForestClassifier",
+  "hyperparameters": {
+    "n_estimators": 400,
+    "max_depth": 6,
+    "min_samples_leaf": 40,
+    "max_features": 0.3,
+    "random_state": 42,
+    "class_weight": null
+  },
+  "input_features": [
+    "grid",
+    "quali_position",
+    "quali_gap_to_pole_pct",
+    "season",
+    "driver_age",
+    "grid_penalty_places",
+    "pit_lane_start",
+    "driver_avg_finish_last5",
+    "constructor_points_last5",
+    "driver_avg_finish_at_circuit",
+    "driver_circuit_appearances",
+    "driver_standing_before",
+    "constructor_standing_before",
+    "driver_points_before",
+    "constructor_points_before",
+    "driver_dnf_rate_last5",
+    "driver_prev_finish",
+    "driver_avg_quali_last5",
+    "driver_career_races",
+    "teammate_prev_finish"
+  ],
+  "n_input_features": 20,
+  "extra_feature": "teammate_prev_finish",
+  "classes": [
+    "Outside Points",
+    "Points",
+    "Top 3"
+  ],
+  "fitted_on_seasons": "2010-2021",
+  "history_table_through_season": 2023,
+  "note": "Fitted parameters (imputer medians, scaler, trees) come from 2010-2021 only. The feature step also stores a table of past results (history_) used for rolling features; it was extended with completed 2022-2023 races before testing. Call pipeline['features'].update_history(new_completed_rows) before predicting later races.",
+  "validation": {
+    "accuracy": 0.7136363636363636,
+    "macro_f1": 0.7007086281620563,
+    "weighted_f1": 0.7152868744788277,
+    "balanced_accuracy": 0.7015512265512266
+  },
+  "test": {
+    "accuracy": 0.7160751565762005,
+    "macro_f1": 0.7066772677295684,
+    "weighted_f1": 0.7174610918251637,
+    "balanced_accuracy": 0.7146634455734874,
+    "roc_auc_ovr_macro": 0.867268540247332
+  },
+  "versions": {
+    "python": "3.13.18",
+    "scikit-learn": "1.7.2",
+    "pandas": "3.1.1",
+    "numpy": "2.5.5",
+    "joblib": "1.6.0"
+  }
+}

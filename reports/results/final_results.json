@@ -1,0 +1,64 @@
+{
+  "split": [
+    {
+      "index": "train",
+      "seasons": "2010\u20132021",
+      "rows": "5073",
+      "races": "237",
+      "first_race": "2010-03-14",
+      "last_race": "2021-12-12",
+      "share_%": "73.4"
+    },
+    {
+      "index": "validation",
+      "seasons": "2022\u20132023",
+      "rows": "880",
+      "races": "44",
+      "first_race": "2022-03-20",
+      "last_race": "2023-11-26",
+      "share_%": "12.7"
+    },
+    {
+      "index": "test",
+      "seasons": "2024\u20132025",
+      "rows": "958",
+      "races": "48",
+      "first_race": "2024-03-02",
+      "last_race": "2025-12-07",
+      "share_%": "13.9"
+    }
+  ],
+  "validation": {
+    "accuracy": 0.7136363636363636,
+    "macro_f1": 0.7007086281620563,
+    "weighted_f1": 0.7152868744788277,
+    "balanced_accuracy": 0.7015512265512266
+  },
+  "test": {
+    "accuracy": 0.7160751565762005,
+    "macro_f1": 0.7066772677295684,
+    "weighted_f1": 0.7174610918251637,
+    "balanced_accuracy": 0.7146634455734874,
+    "roc_auc_ovr_macro": 0.867268540247332
+  },
+  "baseline_grid_rule_test": {
+    "accuracy": 0.7348643006263048,
+    "macro_f1": 0.7195739523145382,
+    "weighted_f1": 0.7348643006263048,
+    "balanced_accuracy": 0.7195739523145382
+  },
+  "test_error_pattern": {
+    "errors": 272,
+    "adjacent_class_errors": 263,
+    "top3_vs_outside_errors": 9,
+    "adjacent_share_of_errors": 0.9669117647058824
+  },
+  "rf_grid_position_of_final_spec": {
+    "final_spec_cv_macro_f1": 0.6784237580393093,
+    "final_spec_cv_rank": 7,
+    "n_configs": 72,
+    "best_cv_macro_f1": 0.6811531279431501
+  },
+  "final_rf_cv_macro_f1_mean": 0.6784237580393093,
+  "final_rf_cv_macro_f1_std": 0.027713925804732413
+}

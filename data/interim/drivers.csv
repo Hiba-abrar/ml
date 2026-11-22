@@ -1,0 +1,84 @@
+driver_id,driver_code,given_name,family_name,date_of_birth,nationality
+grassi,DIG,Lucas,di Grassi,1984-08-11,Brazilian
+yamamoto,YAM,Sakon,Yamamoto,1982-07-09,Japanese
+klien,KLI,Christian,Klien,1983-02-07,Austrian
+buemi,BUE,Sébastien,Buemi,1988-10-31,Swiss
+alguersuari,ALG,Jaime,Alguersuari,1990-03-23,Spanish
+heidfeld,HEI,Nick,Heidfeld,1977-05-10,German
+trulli,TRU,Jarno,Trulli,1974-07-13,Italian
+barrichello,BAR,Rubens,Barrichello,1972-05-23,Brazilian
+liuzzi,LIU,Vitantonio,Liuzzi,1980-08-06,Italian
+chandhok,CHA,Karun,Chandhok,1984-01-19,Indian
+glock,GLO,Timo,Glock,1982-03-18,German
+bruno_senna,SEN,Bruno,Senna,1983-10-15,Brazilian
+petrov,PET,Vitaly,Petrov,1984-09-08,Russian
+michael_schumacher,MSC,Michael,Schumacher,1969-01-03,German
+karthikeyan,KAR,Narain,Karthikeyan,1977-01-14,Indian
+rosa,DLR,Pedro,de la Rosa,1971-02-24,Spanish
+ambrosio,DAM,Jérôme,d'Ambrosio,1985-12-27,Belgian
+webber,WEB,Mark,Webber,1976-08-27,Australian
+pic,PIC,Charles,Pic,1990-02-15,French
+garde,VDG,Giedo,van der Garde,1985-04-25,Dutch
+kovalainen,KOV,Heikki,Kovalainen,1981-10-19,Finnish
+vergne,VER,Jean-Éric,Vergne,1990-04-25,French
+sutil,SUT,Adrian,Sutil,1983-01-11,German
+chilton,CHI,Max,Chilton,1991-04-21,British
+jules_bianchi,BIA,Jules,Bianchi,1989-08-03,French
+kobayashi,KOB,Kamui,Kobayashi,1986-09-13,Japanese
+lotterer,LOT,André,Lotterer,1981-11-19,German
+maldonado,MAL,Pastor,Maldonado,1985-03-09,Venezuelan
+merhi,MER,Roberto,Merhi,1991-03-22,Spanish
+stevens,STE,Will,Stevens,1991-06-28,British
+rossi,RSS,Alexander,Rossi,1991-09-25,American
+rosberg,ROS,Nico,Rosberg,1985-06-27,German
+nasr,NAS,Felipe,Nasr,1992-08-21,Brazilian
+haryanto,HAR,Rio,Haryanto,1993-01-22,Indonesian
+gutierrez,GUT,Esteban,Gutiérrez,1991-08-05,Mexican
+massa,MAS,Felipe,Massa,1981-04-25,Brazilian
+jolyon_palmer,PAL,Jolyon,Palmer,1991-01-20,British
+wehrlein,WEH,Pascal,Wehrlein,1994-10-18,German
+button,BUT,Jenson,Button,1980-01-19,British
+resta,DIR,Paul,di Resta,1986-04-16,British
+vandoorne,VAN,Stoffel,Vandoorne,1992-03-26,Belgian
+brendon_hartley,HAR,Brendon,Hartley,1989-11-10,New Zealander
+ericsson,ERI,Marcus,Ericsson,1990-09-02,Swedish
+sirotkin,SIR,Sergey,Sirotkin,1995-08-27,Russian
+kvyat,KVY,Daniil,Kvyat,1994-04-26,Russian
+grosjean,GRO,Romain,Grosjean,1986-04-17,French
+aitken,AIT,Jack,Aitken,1995-09-23,British
+pietro_fittipaldi,FIT,Pietro,Fittipaldi,1996-06-25,Brazilian
+raikkonen,RAI,Kimi,Räikkönen,1979-10-17,Finnish
+giovinazzi,GIO,Antonio,Giovinazzi,1993-12-14,Italian
+mazepin,MAZ,Nikita,Mazepin,1999-03-02,Russian
+kubica,KUB,Robert,Kubica,1984-12-07,Polish
+mick_schumacher,MSC,Mick,Schumacher,1999-03-22,German
+latifi,LAT,Nicholas,Latifi,1995-06-29,Canadian
+vettel,VET,Sebastian,Vettel,1987-07-03,German
+de_vries,DEV,Nyck,de Vries,1995-02-06,Dutch
+perez,PER,Sergio,Pérez,1990-01-26,Mexican
+zhou,ZHO,Guanyu,Zhou,1999-05-30,Chinese
+kevin_magnussen,MAG,Kevin,Magnussen,1992-10-05,Danish
+ricciardo,RIC,Daniel,Ricciardo,1989-07-01,Australian
+bottas,BOT,Valtteri,Bottas,1989-08-28,Finnish
+sargeant,SAR,Logan,Sargeant,2000-12-31,American
+norris,NOR,Lando,Norris,1999-11-13,British
+max_verstappen,VER,Max,Verstappen,1997-09-30,Dutch
+russell,RUS,George,Russell,1998-02-15,British
+antonelli,ANT,Andrea Kimi,Antonelli,2006-08-25,Italian
+albon,ALB,Alexander,Albon,1996-03-23,Thai
+stroll,STR,Lance,Stroll,1998-10-29,Canadian
+hulkenberg,HUL,Nico,Hülkenberg,1987-08-19,German
+leclerc,LEC,Charles,Leclerc,1997-10-16,Monegasque
+piastri,PIA,Oscar,Piastri,2001-04-06,Australian
+hamilton,HAM,Lewis,Hamilton,1985-01-07,British
+gasly,GAS,Pierre,Gasly,1996-02-07,French
+tsunoda,TSU,Yuki,Tsunoda,2000-05-11,Japanese
+ocon,OCO,Esteban,Ocon,1996-09-17,French
+bearman,BEA,Oliver,Bearman,2005-05-08,British
+lawson,LAW,Liam,Lawson,2002-02-11,New Zealander
+bortoleto,BOR,Gabriel,Bortoleto,2004-10-14,Brazilian
+alonso,ALO,Fernando,Alonso,1981-07-29,Spanish
+sainz,SAI,Carlos,Sainz,1994-09-01,Spanish
+doohan,DOO,Jack,Doohan,2003-01-20,Australian
+hadjar,HAD,Isack,Hadjar,2004-09-28,French
+colapinto,COL,Franco,Colapinto,2003-05-27,Argentine

@@ -1,0 +1,27 @@
+{
+  "f1_data": {
+    "source": "Jolpica F1 API (Ergast-compatible)",
+    "url": "https://api.jolpi.ca/ergast/f1",
+    "collection_method": "HTTP GET of season endpoints (schedule, results, qualifying, sprint, final standings), paginated, cached as JSON",
+    "licence": "Jolpica/Ergast data - free for non-commercial use; see https://github.com/jolpica/jolpica-f1 for current terms",
+    "retrieval_date_utc": "2026-11-07T12:47:43+00:00",
+    "rows": {
+      "races": 329,
+      "results": 6911,
+      "qualifying": 6891,
+      "sprint_results": 480,
+      "drivers": 83,
+      "constructors": 23,
+      "official_final_standings": 540,
+      "weather": 329
+    }
+  },
+  "weather": {
+    "source": "Open-Meteo Historical Weather API (ERA5 / ERA5-Land reanalysis)",
+    "url": "https://archive-api.open-meteo.com/v1/archive",
+    "collection_method": "One request per race using circuit lat/lon, hourly temperature_2m/precipitation/rain around the race start (UTC)",
+    "licence": "CC BY 4.0 (Open-Meteo); ERA5 data from Copernicus Climate Change Service",
+    "retrieval_date_utc": "2026-11-07T12:47:43+00:00",
+    "collected": true
+  }
+}

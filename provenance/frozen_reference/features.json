@@ -1,0 +1,22 @@
+[
+  "grid",
+  "quali_position",
+  "quali_gap_to_pole_pct",
+  "season",
+  "driver_age",
+  "grid_penalty_places",
+  "pit_lane_start",
+  "driver_avg_finish_last5",
+  "constructor_points_last5",
+  "driver_avg_finish_at_circuit",
+  "driver_circuit_appearances",
+  "driver_standing_before",
+  "constructor_standing_before",
+  "driver_points_before",
+  "constructor_points_before",
+  "driver_dnf_rate_last5",
+  "driver_prev_finish",
+  "driver_avg_quali_last5",
+  "driver_career_races",
+  "teammate_prev_finish"
+]

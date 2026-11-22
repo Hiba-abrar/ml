@@ -1,0 +1,168 @@
+{
+  "status": "evaluated_successfully",
+  "model_sha256": "54e359a0da8c5c73a36627e0c555f54aec63cd8a8b0126c3af92c15135ca81c1",
+  "validation_reference": {
+    "n": 880,
+    "accuracy": 0.7136363636363636,
+    "macro_f1": 0.7007086281620563,
+    "weighted_f1": 0.7152868744788277,
+    "balanced_accuracy": 0.7015512265512266
+  },
+  "results": {
+    "combined": {
+      "scope": "combined",
+      "races": 48,
+      "entries": 958,
+      "accuracy": 0.7160751565762005,
+      "macro_f1": 0.7066772677295684,
+      "weighted_f1": 0.7174610918251637,
+      "balanced_accuracy": 0.7146634455734874,
+      "accuracy_difference_from_validation_pp": 0.24387929398368424,
+      "macro_f1_difference_from_validation_pp": 0.5968639567512146
+    },
+    "2024": {
+      "scope": "2024",
+      "races": 24,
+      "entries": 479,
+      "accuracy": 0.7411273486430062,
+      "macro_f1": 0.7214936850998992,
+      "weighted_f1": 0.7425529069490805,
+      "balanced_accuracy": 0.7308173385579244,
+      "accuracy_difference_from_validation_pp": 2.74909850066426,
+      "macro_f1_difference_from_validation_pp": 2.078505693784294
+    },
+    "2025": {
+      "scope": "2025",
+      "races": 24,
+      "entries": 479,
+      "accuracy": 0.6910229645093946,
+      "macro_f1": 0.6922132099020281,
+      "weighted_f1": 0.6925870795997608,
+      "balanced_accuracy": 0.6985095525890506,
+      "accuracy_difference_from_validation_pp": -2.2613399126969025,
+      "macro_f1_difference_from_validation_pp": -0.8495418260028198
+    }
+  },
+  "error_patterns": [
+    {
+      "scope": "combined",
+      "incorrect": 272,
+      "adjacent_errors": 263,
+      "larger_errors": 9,
+      "adjacent_fraction_of_errors": 0.9669117647058824,
+      "confusion_directions": [
+        {
+          "actual": "Top 3",
+          "predicted": "Points",
+          "count": 34
+        },
+        {
+          "actual": "Top 3",
+          "predicted": "Outside Points",
+          "count": 2
+        },
+        {
+          "actual": "Points",
+          "predicted": "Top 3",
+          "count": 43
+        },
+        {
+          "actual": "Points",
+          "predicted": "Outside Points",
+          "count": 84
+        },
+        {
+          "actual": "Outside Points",
+          "predicted": "Top 3",
+          "count": 7
+        },
+        {
+          "actual": "Outside Points",
+          "predicted": "Points",
+          "count": 102
+        }
+      ]
+    },
+    {
+      "scope": "2024",
+      "incorrect": 124,
+      "adjacent_errors": 119,
+      "larger_errors": 5,
+      "adjacent_fraction_of_errors": 0.9596774193548387,
+      "confusion_directions": [
+        {
+          "actual": "Top 3",
+          "predicted": "Points",
+          "count": 18
+        },
+        {
+          "actual": "Top 3",
+          "predicted": "Outside Points",
+          "count": 1
+        },
+        {
+          "actual": "Points",
+          "predicted": "Top 3",
+          "count": 24
+        },
+        {
+          "actual": "Points",
+          "predicted": "Outside Points",
+          "count": 35
+        },
+        {
+          "actual": "Outside Points",
+          "predicted": "Top 3",
+          "count": 4
+        },
+        {
+          "actual": "Outside Points",
+          "predicted": "Points",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "scope": "2025",
+      "incorrect": 148,
+      "adjacent_errors": 144,
+      "larger_errors": 4,
+      "adjacent_fraction_of_errors": 0.972972972972973,
+      "confusion_directions": [
+        {
+          "actual": "Top 3",
+          "predicted": "Points",
+          "count": 16
+        },
+        {
+          "actual": "Top 3",
+          "predicted": "Outside Points",
+          "count": 1
+        },
+        {
+          "actual": "Points",
+          "predicted": "Top 3",
+          "count": 19
+        },
+        {
+          "actual": "Points",
+          "predicted": "Outside Points",
+          "count": 49
+        },
+        {
+          "actual": "Outside Points",
+          "predicted": "Top 3",
+          "count": 3
+        },
+        {
+          "actual": "Outside Points",
+          "predicted": "Points",
+          "count": 60
+        }
+      ]
+    }
+  ],
+  "model_fitted": false,
+  "excluded_test_entries": 0,
+  "excluded_test_races": 0
+}
